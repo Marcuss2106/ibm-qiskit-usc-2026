@@ -61,18 +61,27 @@ This protocol applies when ending a Beads implementation workflow. It is subordi
 
 ## Build & Test
 
-_Add your build and test commands here_
+Start with `docs/DEVELOPMENT.md` (plan, invariants, current findings).
 
 ```bash
-# Example:
-# npm install
-# npm test
+python -m venv qiskit-env && source qiskit-env/bin/activate
+pip install -r requirements.txt
+python -m pytest -q tests           # offline, synthetic data
+python -m qemcmc.data [--refresh]   # prices -> data/instances.npz (--refresh re-downloads)
+python -m qemcmc.objective          # answer key -> results/answer_key_*.csv
+python -m qemcmc.landscape          # local optima -> results/landscape_*.csv
 ```
 
 ## Architecture Overview
 
-_Add a brief overview of your project architecture_
+Package `qemcmc/`: `data.py` (prices, 64 quarterly windows of mu and Sigma),
+`states.py` (numbering of valid portfolios, swap neighbors, Qiskit bit order),
+`objective.py` (score and answer key), `landscape.py` (local optima). Outputs in
+`data/` and `results/`; one-off studies in `experiments/`. Details in
+`docs/DEVELOPMENT.md` §10.
 
 ## Conventions & Patterns
 
-_Add your project-specific conventions here_
+- Reuse `StateSpace` ranks for anything indexed by portfolio (proposal tables, chains).
+- Log attempts, score evaluations, shots and wall-clock time as separate fields.
+- Tests must not use the network.

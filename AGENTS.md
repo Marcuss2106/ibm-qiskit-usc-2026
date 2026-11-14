@@ -128,3 +128,30 @@ bd prime                # Refresh Beads context
 
 **Architecture in one line:** issues live in a local Dolt DB; sync uses `refs/dolt/data` on your git remote; `.beads/issues.jsonl` is a passive export. See https://github.com/gastownhall/beads/blob/main/docs/core-concepts/sync-concepts.md for details and anti-patterns.
 <!-- END BEADS CODEX SETUP -->
+
+## Build & Test
+
+Start with `docs/DEVELOPMENT.md` (plan, invariants, current findings).
+
+```bash
+python -m venv qiskit-env && source qiskit-env/bin/activate
+pip install -r requirements.txt
+python -m pytest -q tests           # offline, synthetic data
+python -m qemcmc.data [--refresh]   # prices -> data/instances.npz (--refresh re-downloads)
+python -m qemcmc.objective          # answer key -> results/answer_key_*.csv
+python -m qemcmc.landscape          # local optima -> results/landscape_*.csv
+```
+
+## Architecture Overview
+
+Package `qemcmc/`: `data.py` (prices, 64 quarterly windows of mu and Sigma),
+`states.py` (numbering of valid portfolios, swap neighbors, Qiskit bit order),
+`objective.py` (score and answer key), `landscape.py` (local optima). Outputs in
+`data/` and `results/`; one-off studies in `experiments/`. Details in
+`docs/DEVELOPMENT.md` §10.
+
+## Conventions & Patterns
+
+- Reuse `StateSpace` ranks for anything indexed by portfolio (proposal tables, chains).
+- Log attempts, score evaluations, shots and wall-clock time as separate fields.
+- Tests must not use the network.

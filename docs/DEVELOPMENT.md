@@ -187,6 +187,23 @@ swap neighborhood**. At 5 of 16 that is about 240,000 score evaluations: seconds
 - If nearly every window has a single optimum, raise λ or add correlated ETF pairs before
   running anything else. On a one-optimum landscape no proposal can beat descent by much.
 
+**Result (2026-11-14; our own finding, literature check pending in bead `5xy`).** The
+landscape is almost always single-peaked. At 5 of 16 with λ = 1, 3, 10, all 64 windows
+have exactly one local optimum and steepest ascent reaches S\* from every start. Raising
+λ, shrinking μ, 63/126-day windows, individual stocks and an SPY hedge do not change this
+while returns are kept (at most 2–5 optima in any window). Cause: the common market factor
+makes most pairs positively correlated, and node terms are about 13× larger than edge
+terms. Random correlations without a market factor give a median of 12 optima. Evidence:
+`experiments/landscape/README.md` and the `ieo` bead notes.
+
+**Proposed framing (bead `lhr`; proceed unless someone objects).** Keep the objective in
+§3 unchanged. Main benchmark at λ = 3 (returns lead) and λ = 30 (most rugged setting where
+returns still matter: 20% of windows have 2–3 optima, returns change the optimum in 88%).
+Measure attempts and score evaluations to reach S\* (or within a tolerance), not escape
+from local optima. The linear-only hardware circuit then encodes nearly the whole
+objective. A secondary, simulation-only "difficulty dial" removes the market component
+from Σ step by step (bead `t3h`) to show where longer quantum jumps start to pay off.
+
 ### 8.2 Main result
 
 - **Chart:** best-so-far gap vs. attempts, median and spread across matched runs and
@@ -245,19 +262,28 @@ File these as beads; this is sequencing guidance, not a task list.
 
 ## 10. Repository and environment
 
-Current state: no implementation yet. Existing files:
+Done: build-order steps 1–2 (data, score, answer key, landscape check). Run commands are
+in `CLAUDE.md` / `AGENTS.md` under Build & Test.
 
 | Path | Purpose |
 |---|---|
-| `requirements.txt` | Pinned env: qiskit 2.6.2, qiskit-aer 0.18.2, qiskit-ibm-runtime 0.52.1, numpy, scipy, pandas, matplotlib, seaborn |
+| `qemcmc/data.py` | Downloads adjusted closes for the 20 ETFs (2008-12 to 2025-12) to `data/prices.csv`; builds 64 quarterly 252-day windows of annualized μ and Σ in `data/instances.npz`. `load_instances(n)` returns the first n tickers (baskets are nested prefixes, core 8 first). |
+| `qemcmc/states.py` | `StateSpace(n, k)`: every valid portfolio has a rank (lexicographic), combo, 0/1 vector and integer. The integer matches Qiskit measurement keys (qubit i = ETF i, `int(key, 2)`). `swap_neighbors()` gives the k(n−k) single-swap neighbors of each rank. Index proposal tables and chains by rank. |
+| `qemcmc/objective.py` | `score()` and `enumerate_scores()` for S(x); writes `results/answer_key_n{n}_k{k}.csv` (S\*, optimal portfolio, tie count, gap to second best) for 3/8, 4/12, 5/16, 6/20 at λ = 1, 3, 10. |
+| `qemcmc/landscape.py` | Local optima under swaps, group (1, 2–5, >5), greedy success per window; writes `results/landscape_n{n}_k{k}.csv`. `select_windows()` picks a stratified window subset. |
+| `experiments/landscape/` | One-off scripts behind the §8.1 result. |
+| `tests/` | Offline tests (synthetic data). |
+| `requirements.txt` | Pinned env: qiskit 2.6.2, qiskit-aer 0.18.2, qiskit-ibm-runtime 0.52.1, yfinance 1.8.0, pytest, numpy, scipy, pandas, matplotlib, seaborn |
 | `qiskit-env/` | Local virtualenv |
 | `run_once.py` | Saves IBM credentials from `.env` (`IBM_API_KEY`, `IBM_CRN`) as the default account. Run once. |
 | `backend.py` | Creates `QiskitRuntimeService()` |
 | `*.ipynb` | Hackathon starter notebooks |
 | `docs/` | Scope, research, this file |
 
-`yfinance` is not in `requirements.txt` yet; add it when building the data loader. Never
-commit `.env` or credentials.
+Data conventions: simple daily returns; μ = 252 × mean, Σ = 252 × covariance; window =
+last 252 returns on or before each quarter end, 2010Q1–2025Q4. No risk-free rate (with
+equal weights it shifts every score by the same constant). Never commit `.env` or
+credentials.
 
 ---
 
