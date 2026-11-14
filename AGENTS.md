@@ -142,6 +142,20 @@ python -m qemcmc.objective          # answer key -> results/answer_key_*.csv
 python -m qemcmc.landscape          # local optima -> results/landscape_*.csv
 ```
 
+### Getting the beads (first time)
+
+Beads are not visible on GitHub; load them with the `bd` CLI.
+
+```bash
+curl -sSL https://raw.githubusercontent.com/steveyegge/beads/main/scripts/install.sh | bash
+bd bootstrap        # in the repo root: clones the shared beads from origin
+bd ready            # available work; bd show <id> for details and notes
+```
+
+Already set up: `bd dolt pull`. Pull before claiming (`bd update <id> --claim`) so two
+people don't take the same bead; `bd dolt push` after changes (needs repo write access).
+`.beads/issues.jsonl` in git may be stale; trust `bd`, not that file.
+
 ## Architecture Overview
 
 Package `qemcmc/`: `data.py` (prices, 64 quarterly windows of mu and Sigma),
