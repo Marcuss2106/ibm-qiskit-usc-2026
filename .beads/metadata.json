@@ -1,0 +1,7 @@
+{
+  "database": "dolt",
+  "backend": "dolt",
+  "dolt_mode": "embedded",
+  "dolt_database": "ibm_qiskit_usc_2026",
+  "project_id": "14996ad0-a97a-4ee0-998d-53fd218c6e67"
+}
