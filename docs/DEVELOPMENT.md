@@ -232,6 +232,23 @@ from Σ step by step (bead `t3h`) to show where longer quantum jumps start to pa
 | Hardware fidelity: usable rate, distance from ideal Q | How far the device is from the simulated proposal | — |
 | Cost per useful proposal | Shots and seconds per accepted move vs. score evals for classical | Hellstern et al. 2026 |
 
+**Result: exact spectral gaps (2026-11-14, `python -m qemcmc.gaps`, bead `cnc`).** Ring
+XY mixer, palindromic circuit, every 8th window, T = 0.3 × std(S), phase angle g / std(S).
+On real data the quantum proposal mixes **slower** than uniform single swaps per attempt:
+
+| Size | λ | Best setting | Gap vs swap (median over windows) | Range |
+|---|---|---|---|---|
+| 4 of 12 | 30 | β = 1.0, full phase | 0.73 | 0.27–0.81 |
+| 5 of 16 | 3 | β = 1.0, full phase, g = 30 | 0.55 | 0.32–0.75 |
+| 5 of 16 | 30 | β = 1.0, full phase, g = 3 | 0.80 | 0.30–0.98 |
+| 5 of 16 | 30 | β = 1.0, linear phase, g = 30 | 0.67 | 0.44–0.97 |
+
+The circuit rarely re-proposes the current portfolio (2–7%); it proposes longer jumps that
+a single-peaked landscape mostly rejects (spread vs. acceptance, Hsieh, Orfi & Sels 2026).
+The complete mixer is worse than the ring. Linear-only is close to full, so the hardware
+circuit loses little. Consistent with §1: a classical win, now explained. Outputs:
+`results/gaps_n12_k4.csv`, `results/gaps_n16_k5.csv`.
+
 ### 8.4 Hardware plan (4 of 12)
 
 1. Transpile the linear-only (or nearest-neighbor) palindromic circuit with a ring XY mixer
@@ -271,7 +288,8 @@ File these as beads; this is sequencing guidance, not a task list.
 
 ## 10. Repository and environment
 
-Done: build-order steps 1–2 (data, score, answer key, landscape check). Run commands are
+Done: build-order steps 1–2 (data, score, answer key, landscape check), step 4 (proposal
+circuits, symmetry test, fast proposal tables) and the spectral-gap part of step 6. Run commands are
 in `CLAUDE.md` / `AGENTS.md` under Build & Test.
 
 | Path | Purpose |
@@ -280,6 +298,9 @@ in `CLAUDE.md` / `AGENTS.md` under Build & Test.
 | `qemcmc/states.py` | `StateSpace(n, k)`: every valid portfolio has a rank (lexicographic), combo, 0/1 vector and integer. The integer matches Qiskit measurement keys (qubit i = ETF i, `int(key, 2)`). `swap_neighbors()` gives the k(n−k) single-swap neighbors of each rank. Index proposal tables and chains by rank. |
 | `qemcmc/objective.py` | `score()` and `enumerate_scores()` for S(x); writes `results/answer_key_n{n}_k{k}.csv` (S\*, optimal portfolio, tie count, gap to second best) for 3/8, 4/12, 5/16, 6/20 at λ = 1, 3, 10. |
 | `qemcmc/landscape.py` | Local optima under swaps, group (1, 2–5, >5), greedy success per window; writes `results/landscape_n{n}_k{k}.csv`. `select_windows()` picks a stratified window subset. |
+| `qemcmc/circuits.py` | Qiskit proposal circuit U = M P M^rev: `proposal_circuit()` (mixer ring/complete; phase none/linear/ring/full; ring order), `score_terms()` (node h, edge J), `proposal_table()` (exact Q by statevector; slow beyond 12 qubits). Use this circuit for hardware. |
+| `qemcmc/subspace.py` | Fast count-restricted simulator, tested equal to the Qiskit tables: `mixer_matrix()` (once per β), `proposal_table_fast()` (≈1 s at 5 of 16), `swap_table()`, `metropolis_matrix()`, `spectral_gap()`. |
+| `qemcmc/gaps.py` | Spectral-gap sweep per method; writes `results/gaps_n{n}_k{k}.csv`. |
 | `experiments/landscape/` | One-off scripts behind the §8.1 result. |
 | `tests/` | Offline tests (synthetic data). |
 | `requirements.txt` | Pinned env: qiskit 2.6.2, qiskit-aer 0.18.2, qiskit-ibm-runtime 0.52.1, yfinance 1.8.0, pytest, numpy, scipy, pandas, matplotlib, seaborn |
