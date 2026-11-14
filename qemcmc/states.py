@@ -62,6 +62,21 @@ class StateSpace:
         b = np.asarray(bits)
         return int(self.rank_of_int(int((b.astype(np.int64) << np.arange(self.n)).sum())))
 
+    def swap_neighbors(self) -> np.ndarray:
+        """Ranks reachable by one swap (local Kawasaki move). Shape [C, k(n-k)].
+
+        Column j*(n-k) + m swaps out the j-th held ETF (ascending) for the m-th
+        unheld ETF (ascending). Cached after the first call.
+        """
+        if getattr(self, "_neighbors", None) is None:
+            n, k = self.n, self.k
+            unheld = np.argsort(self.bits, axis=1, kind="stable")[:, : n - k]
+            one = np.int64(1)
+            flip = (one << self.combos)[:, :, None] | (one << unheld)[:, None, :]
+            nbr_ints = (self.ints[:, None, None] ^ flip).reshape(self.size, -1)
+            self._neighbors = self.rank_of_int(nbr_ints)
+        return self._neighbors
+
     def bitstring(self, rank: int) -> str:
         """Qiskit-order bit string (ETF 0 is the rightmost character)."""
         return format(int(self.ints[rank]), f"0{self.n}b")
