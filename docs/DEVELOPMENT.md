@@ -187,7 +187,7 @@ swap neighborhood**. At 5 of 16 that is about 240,000 score evaluations: seconds
 - If nearly every window has a single optimum, raise λ or add correlated ETF pairs before
   running anything else. On a one-optimum landscape no proposal can beat descent by much.
 
-**Result (2026-11-14; our own finding, literature check pending in bead `5xy`).** The
+**Result (2026-11-14; our own finding, literature-checked in bead `5xy`).** The
 landscape is almost always single-peaked. At 5 of 16 with λ = 1, 3, 10, all 64 windows
 have exactly one local optimum and steepest ascent reaches S\* from every start. Raising
 λ, shrinking μ, 63/126-day windows, individual stocks and an SPY hedge do not change this
@@ -196,7 +196,16 @@ makes most pairs positively correlated, and node terms are about 13× larger tha
 terms. Random correlations without a market factor give a median of 12 optima. Evidence:
 `experiments/landscape/README.md` and the `ieo` bead notes.
 
-**Proposed framing (bead `lhr`; proceed unless someone objects).** Keep the objective in
+Literature (see `research/references.md`, "Landscape structure"): the market mode is the
+largest eigenvalue of asset correlations (Plerou et al. 2002). Stopfer et al. (2025)
+independently find variance-minimizing portfolio problems harder for classical solvers
+than return-maximizing ones, and that exact MIP solves real instances up to 1,000 assets
+in seconds. No paper found that reports single-peaked swap landscapes for equal-weight
+selection; Monge (2020) studies the same problem class via factor models and should be
+read in full. The M♮-concavity theorem (swap optimum is global) does not explain it: our
+data violate its exchange condition.
+
+**Framing (bead `lhr`, adopted 2026-11-14; reopen the bead if you object).** Keep the objective in
 §3 unchanged. Main benchmark at λ = 3 (returns lead) and λ = 30 (most rugged setting where
 returns still matter: 20% of windows have 2–3 optima, returns change the optimum in 88%).
 Measure attempts and score evaluations to reach S\* (or within a tolerance), not escape
@@ -327,6 +336,8 @@ BibTeX: [`research/references.bib`](research/references.bib).
 | Swap move origin | Kawasaki 1966, *Phys. Rev.* | 10.1103/PhysRev.145.224 |
 | Portfolio heuristics | Chang et al. 2000, *Comput. Oper. Res.* | 10.1016/S0305-0548(99)00074-X |
 | Fair benchmarking | Hellstern, Schacht & Zaefferer 2026 (preprint) | 10.48550/arXiv.2610.35126 |
+| Quantum portfolio benchmark (closest classical-vs-quantum study) | Stopfer et al. 2025 (preprint) | 10.48550/arXiv.2509.17876 |
+| Market mode in correlations | Plerou et al. 2002, *PRE* | 10.1103/PhysRevE.65.066126 |
 
 Read depth matters: only Layden 2023 and Marshall 2026 were read in full; the rest are
 abstract or metadata only (see `references.md`).

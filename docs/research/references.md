@@ -38,7 +38,7 @@ cited for its well-known standard content.
 | Kawasaki (1966). Diffusion Constants near the Critical Point for Time-Dependent Ising Models. I. *Phys. Rev.* 145, 224 | J | abs | 10.1103/PhysRev.145.224 | W1982789149 | Origin of the swap (spin-exchange) move |
 | Chang, Meade, Beasley, Sharaiha (2000). Heuristics for cardinality constrained portfolio optimisation. *Comput. Oper. Res.* 27 | J | meta | 10.1016/S0305-0548(99)00074-X | W2151237529 | Classic heuristics benchmark for this problem |
 | Crama & Schyns (2003). Simulated annealing for complex portfolio selection problems. *EJOR* 150 | J | meta | 10.1016/S0377-2217(02)00784-1 | W2113188547 | Swap-based simulated annealing for portfolios |
-| Graham & Craven (2020). An exact algorithm for small-cardinality constrained portfolio optimisation. *JORS* | J | abs | 10.1080/01605682.2020.1718019 | W3003419766 | Local optima in cardinality-constrained portfolios |
+| Graham & Craven (2020). An exact algorithm for small-cardinality constrained portfolio optimisation. *JORS* | J | abs | 10.1080/01605682.2020.1718019 | W3003419766 | Local optima in cardinality-constrained portfolios. Note: continuous weights and an evolutionary algorithm's local optima, not equal weights under swaps, so not directly comparable to our §8.1 counts. |
 | Metropolis, Rosenbluth, Rosenbluth, Teller, Teller (1953). *J. Chem. Phys.* 21, 1087 | J | meta | 10.1063/1.1699114 | W2056760934 | Acceptance rule |
 | Hastings (1970). *Biometrika* 57, 97 | J | meta | 10.1093/biomet/57.1.97 | W2138309709 | Correction for asymmetric proposals |
 | Kirkpatrick, Gelatt, Vecchi (1983). Optimization by Simulated Annealing. *Science* 220 | J | meta | 10.1126/science.220.4598.671 | W2024060531 | Annealing control |
@@ -61,6 +61,26 @@ cited for its well-known standard content.
 | Ledoit & Wolf (2004). Honey, I Shrunk the Sample Covariance Matrix. *JPM* 30 | J | meta | 10.3905/jpm.2004.110 | W3124027709 | Covariance shrinkage option |
 | ★ Egger, Gambella, Mareček, McFaddin et al. (2020). Quantum Computing for Finance: State-of-the-Art and Future Prospects. *IEEE TQE* | J | abs | 10.1109/TQE.2020.3030314 | W3037022125 | Application motivation |
 | Herman, Googin, Liu, Sun et al. (2023). Quantum computing for finance. *Nat. Rev. Phys.* | J | meta | 10.1038/s42254-023-00603-1 | W4383879098 | Updated survey |
+
+## Landscape structure (bead 5xy, added 2026-11-14)
+
+Checks the §8.1 finding that real equal-weight mean–variance is near single-peaked under
+swaps. Summary: the market-mode explanation is supported (Plerou 2002); Stopfer 2025
+independently finds variance-minimizing portfolio problems harder for classical solvers
+than return-maximizing ones; no paper found that reports single-peaked swap landscapes
+for equal-weight selection; the M♮-concavity theorem does not apply (our real data
+violate its exchange condition, see `experiments/landscape/exchange_test.py`).
+
+| Reference | Status | Read | DOI / ID | OpenAlex | Why it matters |
+|---|---|---|---|---|---|
+| Stopfer et al. (2025). Quantum Portfolio Optimization: An Extensive Benchmark | P | abs | 10.48550/arXiv.2509.17876 | W4415255583 | Closest benchmark: QA and QAOA vs MIP, SA, steepest descent, tabu, tailored heuristic on 270 real-stock instances. Variance-minimizing variant is harder for classical solvers than return-maximizing; MIP solves all instances optimally in seconds; tailored heuristic beats quantum. Supports our finding and our "no speedup" stance. |
+| Plerou, Gopikrishnan, Rosenow, Amaral et al. (2002). Random matrix approach to cross correlations in financial data. *PRE* 65, 066126 | J | abs | 10.1103/PhysRevE.65.066126 | W1989576509 | Largest eigenvalue of stock correlations is "an influence common to all stocks" (the market mode); most other eigenvalues look random. Basis for our market-factor explanation and the dial (bead t3h). |
+| Laloux, Cizeau, Bouchaud, Potters (1999). Noise Dressing of Financial Correlation Matrices. *PRL* 83, 1467 | J | abs | 10.1103/PhysRevLett.83.1467 | W2147675445 | Most of an empirical correlation matrix's eigenvalue spectrum matches random-matrix noise; caution on using sample covariance for risk. |
+| Monge (2020). Equally weighted cardinality constrained portfolio selection via factor models. *Optim. Lett.* | J | meta | 10.1007/s11590-020-01571-6 | W2743014156 | Same problem class as ours (equal weight, choose k) solved via factor models. No abstract in OpenAlex; **read the full text next**: it may already describe the factor structure we found. |
+| Ferrari, Fulci, Paterlini (2025). Selection Confidence Sets for Equally Weighted Portfolios | P | abs | 10.48550/arXiv.2510.14988 | W4415861724 | Optimal equal-weight subset is statistically uncertain; matches our small second-best gaps (near-ties). |
+| Murota (2003). *Discrete Convex Analysis*. SIAM | J | meta | 10.1137/1.9780898718508 | W4206054140 | M♮-concave (valuated matroid) objectives: any single-exchange local optimum is global. Our data violate the condition, so it does not explain the finding. |
+| Shioura & Tamura (2015). Gross substitutes condition and discrete concavity for multi-unit valuations: a survey. *J. Oper. Res. Soc. Japan* 58 | J | abs | 10.15807/jorsj.58.61 | W2099063943 | Links "gross substitutes" (economics) to M♮-concavity. |
+| Murota & Shioura (2004). Quadratic M-convex and L-convex functions. *Adv. Appl. Math.* | J | meta | 10.1016/j.aam.2003.11.001 | W2016802101 | Conditions for a quadratic function to be M-convex; would characterize which covariance matrices give guaranteed single peaks. |
 
 ## Background (study guide)
 

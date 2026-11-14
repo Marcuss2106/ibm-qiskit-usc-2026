@@ -24,6 +24,7 @@ All use 5 of 16, 64 quarterly windows. "Optima" = local optima under single swap
 | `stock_test.py` | Do 16 large stocks (2 per sector, as of 2010) help? | No. At most 5 optima; median greedy 1.0. |
 | `market_factor.py` | Is the common market factor the cause? | Yes. Random correlations with a growing market factor: median optima 12, 8, 2, 1. Real ETFs (mean correlation +0.31) sit in the single-peak zone. |
 | `residual.py` | Real Σ with the top principal component removed? | Risk-only: 84% of windows with more than 1 optimum, median 3, greedy 0.62 (ETFs; stocks similar). With returns (λ = 3): still 1 optimum. |
+| `exchange_test.py` | Does the real objective satisfy the M♮ (valuated matroid) exchange condition, under which any swap optimum is global? | No. About 23% violations for real and random data alike; tiny noise on a linear score also gives 23%. The theorem does not explain the single peak; the effect is quantitative. |
 | `alpha_test.py` | SPY-hedged alpha vs residual risk; λ sweep | Hedged: single-peaked for λ 1–100. Plain λ = 30: 20% of windows with 2–3 optima, returns still change the optimum in 88%. Greedy ring captures 20–30% of edge weight. |
 
 Status: our own experimental result, not yet checked against the literature (bead
