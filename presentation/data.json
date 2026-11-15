@@ -1,0 +1,145 @@
+{
+ "window_end": "2025-12-31",
+ "tickers": [
+  "SPY",
+  "IWM",
+  "EFA",
+  "EEM",
+  "IEF",
+  "TLT",
+  "GLD",
+  "DBC"
+ ],
+ "corr": [
+  [
+   1.0,
+   0.876,
+   0.795,
+   0.763,
+   -0.092,
+   0.095,
+   0.028,
+   0.361
+  ],
+  [
+   0.876,
+   1.0,
+   0.743,
+   0.712,
+   -0.04,
+   0.114,
+   0.054,
+   0.311
+  ],
+  [
+   0.795,
+   0.743,
+   1.0,
+   0.808,
+   0.055,
+   0.161,
+   0.25,
+   0.262
+  ],
+  [
+   0.763,
+   0.712,
+   0.808,
+   1.0,
+   -0.089,
+   0.054,
+   0.256,
+   0.35
+  ],
+  [
+   -0.092,
+   -0.04,
+   0.055,
+   -0.089,
+   1.0,
+   0.888,
+   0.079,
+   -0.251
+  ],
+  [
+   0.095,
+   0.114,
+   0.161,
+   0.054,
+   0.888,
+   1.0,
+   0.036,
+   -0.122
+  ],
+  [
+   0.028,
+   0.054,
+   0.25,
+   0.256,
+   0.079,
+   0.036,
+   1.0,
+   0.337
+  ],
+  [
+   0.361,
+   0.311,
+   0.262,
+   0.35,
+   -0.251,
+   -0.122,
+   0.337,
+   1.0
+  ]
+ ],
+ "best_signs": [
+  1,
+  1,
+  -1,
+  -1,
+  1,
+  -1,
+  1,
+  -1
+ ],
+ "worst_signs": [
+  1,
+  1,
+  1,
+  1,
+  -1,
+  -1,
+  -1,
+  -1
+ ],
+ "risk_best_norm": 0.0,
+ "risk_worst_norm": 1.0,
+ "risk_median_norm": 0.23196297460234225,
+ "numbers": {
+  "mv_one_optimum_windows": "64 of 64",
+  "mv_quantum_vs_swap": "0.5-0.8x",
+  "random_corr_median_optima": 12,
+  "ls_median_optima_8x8_etf": 13,
+  "ls_greedy_fail_8x8_etf": "~80%",
+  "bars_etf_fair": {
+   "single swap": 1.0,
+   "multi-swap (tuned)": 2.22,
+   "quantum (all-pairs mixer)": 2.67
+  },
+  "quantum_phase_off_etf": 1.84,
+  "beats_multi_heldout": "81-91%",
+  "winner_2q_gates": 540,
+  "hw_2q_gates": 86,
+  "hw_qpu_seconds": 12,
+  "hw_usable": "43%",
+  "hw_gap": 0.043,
+  "ideal_gap": 0.09,
+  "swap_gap": 0.061,
+  "race_etf_8x8": {
+   "single swap": 1093,
+   "quantum": 1264,
+   "parallel tempering": 1405,
+   "multi-swap": 2175
+  }
+ }
+}

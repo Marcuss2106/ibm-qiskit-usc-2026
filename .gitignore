@@ -230,3 +230,8 @@ __marimo__/
 
 # experiment caches
 data/stock_prices.csv
+
+# presentation build
+presentation/.venv/
+presentation/media/
+presentation/__pycache__/
