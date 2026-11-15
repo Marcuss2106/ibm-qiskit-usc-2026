@@ -14,6 +14,7 @@ useful background.
 | [`literature-review.md`](literature-review.md) | Thematic synthesis, each section ending in implications for the build |
 | [`rugged-landscapes.md`](rugged-landscapes.md) | Why every window is single-peaked; finance problems with exactly k holdings that can be rugged; tuning knobs, screen, baselines, experiments E0–E7 |
 | [`longshort-complete-mixer.md`](longshort-complete-mixer.md) | Testing so far on the 6 long / 6 short ETF book: complete-mixer quantum proposal vs classical baselines, tests 1–6 and current claim |
+| [`presentation-reference.md`](presentation-reference.md) | How to build the talk: 3Blue1Brown-style explanation, slide research (Alley, Mayer, Doumont), Winston's speaking techniques, manim-slides patterns, draft QeMCMC outline |
 | [`references.md`](references.md) | Annotated bibliography: DOI, OpenAlex ID, peer-review status, depth read |
 | [`references.bib`](references.bib) | BibTeX for the same works |
 
