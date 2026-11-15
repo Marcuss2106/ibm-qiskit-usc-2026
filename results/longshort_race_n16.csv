@@ -1,0 +1,1921 @@
+universe,w,method,attempts,evals,solved
+ETFs,1,single swap,858,858,True
+ETFs,1,single swap,1692,1692,True
+ETFs,1,single swap,2374,2374,True
+ETFs,1,single swap,376,376,True
+ETFs,1,single swap,4811,4811,True
+ETFs,1,single swap,1771,1771,True
+ETFs,1,single swap,1920,1920,True
+ETFs,1,single swap,2771,2771,True
+ETFs,1,single swap,92,92,True
+ETFs,1,single swap,3834,3834,True
+ETFs,1,single swap,1465,1465,True
+ETFs,1,single swap,155,155,True
+ETFs,1,single swap,4303,4303,True
+ETFs,1,single swap,6686,6686,True
+ETFs,1,single swap,5320,5320,True
+ETFs,1,single swap,2771,2771,True
+ETFs,1,single swap,1068,1068,True
+ETFs,1,single swap,803,803,True
+ETFs,1,single swap,475,475,True
+ETFs,1,single swap,9584,9584,True
+ETFs,1,single swap,1111,1111,True
+ETFs,1,single swap,8446,8446,True
+ETFs,1,single swap,2460,2460,True
+ETFs,1,single swap,1708,1708,True
+ETFs,1,multi-swap,3479,3479,True
+ETFs,1,multi-swap,3225,3225,True
+ETFs,1,multi-swap,5838,5838,True
+ETFs,1,multi-swap,2415,2415,True
+ETFs,1,multi-swap,380,380,True
+ETFs,1,multi-swap,2114,2114,True
+ETFs,1,multi-swap,10407,10407,True
+ETFs,1,multi-swap,8353,8353,True
+ETFs,1,multi-swap,6792,6792,True
+ETFs,1,multi-swap,5501,5501,True
+ETFs,1,multi-swap,15001,15001,False
+ETFs,1,multi-swap,1064,1064,True
+ETFs,1,multi-swap,2882,2882,True
+ETFs,1,multi-swap,11021,11021,True
+ETFs,1,multi-swap,1596,1596,True
+ETFs,1,multi-swap,387,387,True
+ETFs,1,multi-swap,5132,5132,True
+ETFs,1,multi-swap,5100,5100,True
+ETFs,1,multi-swap,998,998,True
+ETFs,1,multi-swap,12175,12175,True
+ETFs,1,multi-swap,823,823,True
+ETFs,1,multi-swap,286,286,True
+ETFs,1,multi-swap,1129,1129,True
+ETFs,1,multi-swap,765,765,True
+ETFs,1,locally balanced,339,18984,True
+ETFs,1,locally balanced,368,20608,True
+ETFs,1,locally balanced,98,5488,True
+ETFs,1,locally balanced,786,44016,True
+ETFs,1,locally balanced,785,43960,True
+ETFs,1,locally balanced,70,3920,True
+ETFs,1,locally balanced,278,15568,True
+ETFs,1,locally balanced,88,4928,True
+ETFs,1,locally balanced,2260,126560,True
+ETFs,1,locally balanced,72,4032,True
+ETFs,1,locally balanced,284,15904,True
+ETFs,1,locally balanced,246,13776,True
+ETFs,1,locally balanced,3555,199080,True
+ETFs,1,locally balanced,739,41384,True
+ETFs,1,locally balanced,271,15176,True
+ETFs,1,locally balanced,193,10808,True
+ETFs,1,locally balanced,663,37128,True
+ETFs,1,locally balanced,93,5208,True
+ETFs,1,locally balanced,21,1176,True
+ETFs,1,locally balanced,480,26880,True
+ETFs,1,locally balanced,2135,119560,True
+ETFs,1,locally balanced,94,5264,True
+ETFs,1,locally balanced,463,25928,True
+ETFs,1,locally balanced,580,32480,True
+ETFs,1,quantum complete+full,1670,1670,True
+ETFs,1,quantum complete+full,3883,3883,True
+ETFs,1,quantum complete+full,2701,2701,True
+ETFs,1,quantum complete+full,2259,2259,True
+ETFs,1,quantum complete+full,9876,9876,True
+ETFs,1,quantum complete+full,3986,3986,True
+ETFs,1,quantum complete+full,1803,1803,True
+ETFs,1,quantum complete+full,3666,3666,True
+ETFs,1,quantum complete+full,2298,2298,True
+ETFs,1,quantum complete+full,13969,13969,True
+ETFs,1,quantum complete+full,3387,3387,True
+ETFs,1,quantum complete+full,5033,5033,True
+ETFs,1,quantum complete+full,5241,5241,True
+ETFs,1,quantum complete+full,496,496,True
+ETFs,1,quantum complete+full,9449,9449,True
+ETFs,1,quantum complete+full,2089,2089,True
+ETFs,1,quantum complete+full,1179,1179,True
+ETFs,1,quantum complete+full,291,291,True
+ETFs,1,quantum complete+full,4664,4664,True
+ETFs,1,quantum complete+full,404,404,True
+ETFs,1,quantum complete+full,3159,3159,True
+ETFs,1,quantum complete+full,140,140,True
+ETFs,1,quantum complete+full,102,102,True
+ETFs,1,quantum complete+full,443,443,True
+ETFs,1,parallel tempering,2146,2146,True
+ETFs,1,parallel tempering,7177,7177,True
+ETFs,1,parallel tempering,6588,6588,True
+ETFs,1,parallel tempering,2829,2829,True
+ETFs,1,parallel tempering,4441,4441,True
+ETFs,1,parallel tempering,4003,4003,True
+ETFs,1,parallel tempering,3975,3975,True
+ETFs,1,parallel tempering,7950,7950,True
+ETFs,1,parallel tempering,7454,7454,True
+ETFs,1,parallel tempering,3355,3355,True
+ETFs,1,parallel tempering,1390,1390,True
+ETFs,1,parallel tempering,5558,5558,True
+ETFs,1,parallel tempering,10159,10159,True
+ETFs,1,parallel tempering,1188,1188,True
+ETFs,1,parallel tempering,179,179,True
+ETFs,1,parallel tempering,1423,1423,True
+ETFs,1,parallel tempering,1128,1128,True
+ETFs,1,parallel tempering,2238,2238,True
+ETFs,1,parallel tempering,3843,3843,True
+ETFs,1,parallel tempering,2653,2653,True
+ETFs,1,parallel tempering,8597,8597,True
+ETFs,1,parallel tempering,1279,1279,True
+ETFs,1,parallel tempering,2109,2109,True
+ETFs,1,parallel tempering,1643,1643,True
+ETFs,9,single swap,3851,3851,True
+ETFs,9,single swap,128,128,True
+ETFs,9,single swap,831,831,True
+ETFs,9,single swap,3893,3893,True
+ETFs,9,single swap,1248,1248,True
+ETFs,9,single swap,2804,2804,True
+ETFs,9,single swap,983,983,True
+ETFs,9,single swap,5550,5550,True
+ETFs,9,single swap,1344,1344,True
+ETFs,9,single swap,10888,10888,True
+ETFs,9,single swap,5276,5276,True
+ETFs,9,single swap,4387,4387,True
+ETFs,9,single swap,1783,1783,True
+ETFs,9,single swap,6946,6946,True
+ETFs,9,single swap,600,600,True
+ETFs,9,single swap,1873,1873,True
+ETFs,9,single swap,6318,6318,True
+ETFs,9,single swap,1962,1962,True
+ETFs,9,single swap,518,518,True
+ETFs,9,single swap,3648,3648,True
+ETFs,9,single swap,1663,1663,True
+ETFs,9,single swap,2882,2882,True
+ETFs,9,single swap,837,837,True
+ETFs,9,single swap,1535,1535,True
+ETFs,9,multi-swap,3225,3225,True
+ETFs,9,multi-swap,8754,8754,True
+ETFs,9,multi-swap,457,457,True
+ETFs,9,multi-swap,4318,4318,True
+ETFs,9,multi-swap,4366,4366,True
+ETFs,9,multi-swap,4708,4708,True
+ETFs,9,multi-swap,431,431,True
+ETFs,9,multi-swap,8769,8769,True
+ETFs,9,multi-swap,3613,3613,True
+ETFs,9,multi-swap,12262,12262,True
+ETFs,9,multi-swap,12615,12615,True
+ETFs,9,multi-swap,2633,2633,True
+ETFs,9,multi-swap,3028,3028,True
+ETFs,9,multi-swap,6810,6810,True
+ETFs,9,multi-swap,9984,9984,True
+ETFs,9,multi-swap,3593,3593,True
+ETFs,9,multi-swap,585,585,True
+ETFs,9,multi-swap,6008,6008,True
+ETFs,9,multi-swap,3742,3742,True
+ETFs,9,multi-swap,1212,1212,True
+ETFs,9,multi-swap,4344,4344,True
+ETFs,9,multi-swap,4781,4781,True
+ETFs,9,multi-swap,4021,4021,True
+ETFs,9,multi-swap,597,597,True
+ETFs,9,locally balanced,1055,59080,True
+ETFs,9,locally balanced,3066,171696,True
+ETFs,9,locally balanced,1906,106736,True
+ETFs,9,locally balanced,1613,90328,True
+ETFs,9,locally balanced,416,23296,True
+ETFs,9,locally balanced,2000,112000,True
+ETFs,9,locally balanced,918,51408,True
+ETFs,9,locally balanced,41,2296,True
+ETFs,9,locally balanced,940,52640,True
+ETFs,9,locally balanced,7,392,True
+ETFs,9,locally balanced,290,16240,True
+ETFs,9,locally balanced,1044,58464,True
+ETFs,9,locally balanced,195,10920,True
+ETFs,9,locally balanced,890,49840,True
+ETFs,9,locally balanced,440,24640,True
+ETFs,9,locally balanced,977,54712,True
+ETFs,9,locally balanced,127,7112,True
+ETFs,9,locally balanced,198,11088,True
+ETFs,9,locally balanced,144,8064,True
+ETFs,9,locally balanced,539,30184,True
+ETFs,9,locally balanced,887,49672,True
+ETFs,9,locally balanced,351,19656,True
+ETFs,9,locally balanced,1189,66584,True
+ETFs,9,locally balanced,3159,176904,True
+ETFs,9,quantum complete+full,801,801,True
+ETFs,9,quantum complete+full,1010,1010,True
+ETFs,9,quantum complete+full,1201,1201,True
+ETFs,9,quantum complete+full,1649,1649,True
+ETFs,9,quantum complete+full,7144,7144,True
+ETFs,9,quantum complete+full,9586,9586,True
+ETFs,9,quantum complete+full,5523,5523,True
+ETFs,9,quantum complete+full,986,986,True
+ETFs,9,quantum complete+full,15001,15001,False
+ETFs,9,quantum complete+full,1095,1095,True
+ETFs,9,quantum complete+full,7303,7303,True
+ETFs,9,quantum complete+full,15,15,True
+ETFs,9,quantum complete+full,335,335,True
+ETFs,9,quantum complete+full,1540,1540,True
+ETFs,9,quantum complete+full,591,591,True
+ETFs,9,quantum complete+full,1190,1190,True
+ETFs,9,quantum complete+full,3374,3374,True
+ETFs,9,quantum complete+full,2427,2427,True
+ETFs,9,quantum complete+full,2570,2570,True
+ETFs,9,quantum complete+full,872,872,True
+ETFs,9,quantum complete+full,8313,8313,True
+ETFs,9,quantum complete+full,4382,4382,True
+ETFs,9,quantum complete+full,2823,2823,True
+ETFs,9,quantum complete+full,1931,1931,True
+ETFs,9,parallel tempering,4164,4164,True
+ETFs,9,parallel tempering,6033,6033,True
+ETFs,9,parallel tempering,809,809,True
+ETFs,9,parallel tempering,2731,2731,True
+ETFs,9,parallel tempering,3541,3541,True
+ETFs,9,parallel tempering,317,317,True
+ETFs,9,parallel tempering,3151,3151,True
+ETFs,9,parallel tempering,3727,3727,True
+ETFs,9,parallel tempering,2348,2348,True
+ETFs,9,parallel tempering,7261,7261,True
+ETFs,9,parallel tempering,4053,4053,True
+ETFs,9,parallel tempering,3359,3359,True
+ETFs,9,parallel tempering,15001,15001,False
+ETFs,9,parallel tempering,729,729,True
+ETFs,9,parallel tempering,4537,4537,True
+ETFs,9,parallel tempering,1141,1141,True
+ETFs,9,parallel tempering,1293,1293,True
+ETFs,9,parallel tempering,1471,1471,True
+ETFs,9,parallel tempering,2778,2778,True
+ETFs,9,parallel tempering,6210,6210,True
+ETFs,9,parallel tempering,2346,2346,True
+ETFs,9,parallel tempering,379,379,True
+ETFs,9,parallel tempering,217,217,True
+ETFs,9,parallel tempering,3377,3377,True
+ETFs,17,single swap,635,635,True
+ETFs,17,single swap,221,221,True
+ETFs,17,single swap,1154,1154,True
+ETFs,17,single swap,1001,1001,True
+ETFs,17,single swap,1084,1084,True
+ETFs,17,single swap,314,314,True
+ETFs,17,single swap,385,385,True
+ETFs,17,single swap,2307,2307,True
+ETFs,17,single swap,964,964,True
+ETFs,17,single swap,1145,1145,True
+ETFs,17,single swap,2422,2422,True
+ETFs,17,single swap,1142,1142,True
+ETFs,17,single swap,228,228,True
+ETFs,17,single swap,981,981,True
+ETFs,17,single swap,208,208,True
+ETFs,17,single swap,3661,3661,True
+ETFs,17,single swap,246,246,True
+ETFs,17,single swap,1187,1187,True
+ETFs,17,single swap,622,622,True
+ETFs,17,single swap,4091,4091,True
+ETFs,17,single swap,1040,1040,True
+ETFs,17,single swap,1295,1295,True
+ETFs,17,single swap,821,821,True
+ETFs,17,single swap,259,259,True
+ETFs,17,multi-swap,1282,1282,True
+ETFs,17,multi-swap,48,48,True
+ETFs,17,multi-swap,3070,3070,True
+ETFs,17,multi-swap,1201,1201,True
+ETFs,17,multi-swap,1404,1404,True
+ETFs,17,multi-swap,2165,2165,True
+ETFs,17,multi-swap,205,205,True
+ETFs,17,multi-swap,279,279,True
+ETFs,17,multi-swap,32,32,True
+ETFs,17,multi-swap,5123,5123,True
+ETFs,17,multi-swap,6336,6336,True
+ETFs,17,multi-swap,83,83,True
+ETFs,17,multi-swap,5204,5204,True
+ETFs,17,multi-swap,667,667,True
+ETFs,17,multi-swap,151,151,True
+ETFs,17,multi-swap,8794,8794,True
+ETFs,17,multi-swap,599,599,True
+ETFs,17,multi-swap,5647,5647,True
+ETFs,17,multi-swap,1093,1093,True
+ETFs,17,multi-swap,58,58,True
+ETFs,17,multi-swap,2626,2626,True
+ETFs,17,multi-swap,9126,9126,True
+ETFs,17,multi-swap,2520,2520,True
+ETFs,17,multi-swap,319,319,True
+ETFs,17,locally balanced,196,10976,True
+ETFs,17,locally balanced,217,12152,True
+ETFs,17,locally balanced,49,2744,True
+ETFs,17,locally balanced,323,18088,True
+ETFs,17,locally balanced,89,4984,True
+ETFs,17,locally balanced,606,33936,True
+ETFs,17,locally balanced,28,1568,True
+ETFs,17,locally balanced,86,4816,True
+ETFs,17,locally balanced,126,7056,True
+ETFs,17,locally balanced,122,6832,True
+ETFs,17,locally balanced,28,1568,True
+ETFs,17,locally balanced,243,13608,True
+ETFs,17,locally balanced,253,14168,True
+ETFs,17,locally balanced,551,30856,True
+ETFs,17,locally balanced,76,4256,True
+ETFs,17,locally balanced,238,13328,True
+ETFs,17,locally balanced,269,15064,True
+ETFs,17,locally balanced,346,19376,True
+ETFs,17,locally balanced,53,2968,True
+ETFs,17,locally balanced,22,1232,True
+ETFs,17,locally balanced,265,14840,True
+ETFs,17,locally balanced,216,12096,True
+ETFs,17,locally balanced,46,2576,True
+ETFs,17,locally balanced,59,3304,True
+ETFs,17,quantum complete+full,497,497,True
+ETFs,17,quantum complete+full,7162,7162,True
+ETFs,17,quantum complete+full,450,450,True
+ETFs,17,quantum complete+full,621,621,True
+ETFs,17,quantum complete+full,1264,1264,True
+ETFs,17,quantum complete+full,1239,1239,True
+ETFs,17,quantum complete+full,1130,1130,True
+ETFs,17,quantum complete+full,5275,5275,True
+ETFs,17,quantum complete+full,2837,2837,True
+ETFs,17,quantum complete+full,50,50,True
+ETFs,17,quantum complete+full,5191,5191,True
+ETFs,17,quantum complete+full,315,315,True
+ETFs,17,quantum complete+full,75,75,True
+ETFs,17,quantum complete+full,423,423,True
+ETFs,17,quantum complete+full,672,672,True
+ETFs,17,quantum complete+full,462,462,True
+ETFs,17,quantum complete+full,2625,2625,True
+ETFs,17,quantum complete+full,2693,2693,True
+ETFs,17,quantum complete+full,1119,1119,True
+ETFs,17,quantum complete+full,3304,3304,True
+ETFs,17,quantum complete+full,43,43,True
+ETFs,17,quantum complete+full,248,248,True
+ETFs,17,quantum complete+full,794,794,True
+ETFs,17,quantum complete+full,530,530,True
+ETFs,17,parallel tempering,2256,2256,True
+ETFs,17,parallel tempering,1921,1921,True
+ETFs,17,parallel tempering,301,301,True
+ETFs,17,parallel tempering,1413,1413,True
+ETFs,17,parallel tempering,334,334,True
+ETFs,17,parallel tempering,1845,1845,True
+ETFs,17,parallel tempering,1170,1170,True
+ETFs,17,parallel tempering,1161,1161,True
+ETFs,17,parallel tempering,2749,2749,True
+ETFs,17,parallel tempering,769,769,True
+ETFs,17,parallel tempering,725,725,True
+ETFs,17,parallel tempering,1525,1525,True
+ETFs,17,parallel tempering,3412,3412,True
+ETFs,17,parallel tempering,1035,1035,True
+ETFs,17,parallel tempering,432,432,True
+ETFs,17,parallel tempering,1016,1016,True
+ETFs,17,parallel tempering,951,951,True
+ETFs,17,parallel tempering,2949,2949,True
+ETFs,17,parallel tempering,958,958,True
+ETFs,17,parallel tempering,367,367,True
+ETFs,17,parallel tempering,883,883,True
+ETFs,17,parallel tempering,1034,1034,True
+ETFs,17,parallel tempering,3168,3168,True
+ETFs,17,parallel tempering,391,391,True
+ETFs,25,single swap,1568,1568,True
+ETFs,25,single swap,697,697,True
+ETFs,25,single swap,393,393,True
+ETFs,25,single swap,971,971,True
+ETFs,25,single swap,4290,4290,True
+ETFs,25,single swap,118,118,True
+ETFs,25,single swap,4168,4168,True
+ETFs,25,single swap,3703,3703,True
+ETFs,25,single swap,191,191,True
+ETFs,25,single swap,639,639,True
+ETFs,25,single swap,168,168,True
+ETFs,25,single swap,110,110,True
+ETFs,25,single swap,63,63,True
+ETFs,25,single swap,1177,1177,True
+ETFs,25,single swap,2172,2172,True
+ETFs,25,single swap,443,443,True
+ETFs,25,single swap,136,136,True
+ETFs,25,single swap,1855,1855,True
+ETFs,25,single swap,644,644,True
+ETFs,25,single swap,2012,2012,True
+ETFs,25,single swap,627,627,True
+ETFs,25,single swap,4700,4700,True
+ETFs,25,single swap,510,510,True
+ETFs,25,single swap,2687,2687,True
+ETFs,25,multi-swap,5666,5666,True
+ETFs,25,multi-swap,1102,1102,True
+ETFs,25,multi-swap,732,732,True
+ETFs,25,multi-swap,1245,1245,True
+ETFs,25,multi-swap,4705,4705,True
+ETFs,25,multi-swap,4982,4982,True
+ETFs,25,multi-swap,3732,3732,True
+ETFs,25,multi-swap,5723,5723,True
+ETFs,25,multi-swap,5237,5237,True
+ETFs,25,multi-swap,4144,4144,True
+ETFs,25,multi-swap,1317,1317,True
+ETFs,25,multi-swap,83,83,True
+ETFs,25,multi-swap,3068,3068,True
+ETFs,25,multi-swap,1501,1501,True
+ETFs,25,multi-swap,599,599,True
+ETFs,25,multi-swap,2407,2407,True
+ETFs,25,multi-swap,3916,3916,True
+ETFs,25,multi-swap,2064,2064,True
+ETFs,25,multi-swap,2068,2068,True
+ETFs,25,multi-swap,357,357,True
+ETFs,25,multi-swap,3671,3671,True
+ETFs,25,multi-swap,10332,10332,True
+ETFs,25,multi-swap,136,136,True
+ETFs,25,multi-swap,7898,7898,True
+ETFs,25,locally balanced,331,18536,True
+ETFs,25,locally balanced,123,6888,True
+ETFs,25,locally balanced,61,3416,True
+ETFs,25,locally balanced,152,8512,True
+ETFs,25,locally balanced,43,2408,True
+ETFs,25,locally balanced,490,27440,True
+ETFs,25,locally balanced,57,3192,True
+ETFs,25,locally balanced,330,18480,True
+ETFs,25,locally balanced,281,15736,True
+ETFs,25,locally balanced,64,3584,True
+ETFs,25,locally balanced,598,33488,True
+ETFs,25,locally balanced,420,23520,True
+ETFs,25,locally balanced,43,2408,True
+ETFs,25,locally balanced,174,9744,True
+ETFs,25,locally balanced,255,14280,True
+ETFs,25,locally balanced,330,18480,True
+ETFs,25,locally balanced,272,15232,True
+ETFs,25,locally balanced,20,1120,True
+ETFs,25,locally balanced,423,23688,True
+ETFs,25,locally balanced,1141,63896,True
+ETFs,25,locally balanced,208,11648,True
+ETFs,25,locally balanced,167,9352,True
+ETFs,25,locally balanced,218,12208,True
+ETFs,25,locally balanced,20,1120,True
+ETFs,25,quantum complete+full,3654,3654,True
+ETFs,25,quantum complete+full,801,801,True
+ETFs,25,quantum complete+full,1080,1080,True
+ETFs,25,quantum complete+full,3263,3263,True
+ETFs,25,quantum complete+full,13910,13910,True
+ETFs,25,quantum complete+full,2726,2726,True
+ETFs,25,quantum complete+full,650,650,True
+ETFs,25,quantum complete+full,231,231,True
+ETFs,25,quantum complete+full,1769,1769,True
+ETFs,25,quantum complete+full,3358,3358,True
+ETFs,25,quantum complete+full,4312,4312,True
+ETFs,25,quantum complete+full,493,493,True
+ETFs,25,quantum complete+full,1154,1154,True
+ETFs,25,quantum complete+full,4811,4811,True
+ETFs,25,quantum complete+full,6434,6434,True
+ETFs,25,quantum complete+full,3607,3607,True
+ETFs,25,quantum complete+full,1799,1799,True
+ETFs,25,quantum complete+full,2017,2017,True
+ETFs,25,quantum complete+full,4203,4203,True
+ETFs,25,quantum complete+full,592,592,True
+ETFs,25,quantum complete+full,1087,1087,True
+ETFs,25,quantum complete+full,7239,7239,True
+ETFs,25,quantum complete+full,15001,15001,False
+ETFs,25,quantum complete+full,2377,2377,True
+ETFs,25,parallel tempering,3863,3863,True
+ETFs,25,parallel tempering,3457,3457,True
+ETFs,25,parallel tempering,878,878,True
+ETFs,25,parallel tempering,1574,1574,True
+ETFs,25,parallel tempering,3873,3873,True
+ETFs,25,parallel tempering,7358,7358,True
+ETFs,25,parallel tempering,5343,5343,True
+ETFs,25,parallel tempering,437,437,True
+ETFs,25,parallel tempering,7545,7545,True
+ETFs,25,parallel tempering,761,761,True
+ETFs,25,parallel tempering,397,397,True
+ETFs,25,parallel tempering,725,725,True
+ETFs,25,parallel tempering,557,557,True
+ETFs,25,parallel tempering,246,246,True
+ETFs,25,parallel tempering,3565,3565,True
+ETFs,25,parallel tempering,893,893,True
+ETFs,25,parallel tempering,194,194,True
+ETFs,25,parallel tempering,4676,4676,True
+ETFs,25,parallel tempering,249,249,True
+ETFs,25,parallel tempering,1201,1201,True
+ETFs,25,parallel tempering,600,600,True
+ETFs,25,parallel tempering,7673,7673,True
+ETFs,25,parallel tempering,5450,5450,True
+ETFs,25,parallel tempering,3610,3610,True
+ETFs,33,single swap,804,804,True
+ETFs,33,single swap,102,102,True
+ETFs,33,single swap,2621,2621,True
+ETFs,33,single swap,3641,3641,True
+ETFs,33,single swap,483,483,True
+ETFs,33,single swap,3927,3927,True
+ETFs,33,single swap,1285,1285,True
+ETFs,33,single swap,258,258,True
+ETFs,33,single swap,678,678,True
+ETFs,33,single swap,912,912,True
+ETFs,33,single swap,669,669,True
+ETFs,33,single swap,1785,1785,True
+ETFs,33,single swap,204,204,True
+ETFs,33,single swap,412,412,True
+ETFs,33,single swap,1890,1890,True
+ETFs,33,single swap,658,658,True
+ETFs,33,single swap,628,628,True
+ETFs,33,single swap,2381,2381,True
+ETFs,33,single swap,1698,1698,True
+ETFs,33,single swap,205,205,True
+ETFs,33,single swap,968,968,True
+ETFs,33,single swap,906,906,True
+ETFs,33,single swap,489,489,True
+ETFs,33,single swap,243,243,True
+ETFs,33,multi-swap,7008,7008,True
+ETFs,33,multi-swap,395,395,True
+ETFs,33,multi-swap,6347,6347,True
+ETFs,33,multi-swap,4569,4569,True
+ETFs,33,multi-swap,7088,7088,True
+ETFs,33,multi-swap,1193,1193,True
+ETFs,33,multi-swap,2866,2866,True
+ETFs,33,multi-swap,3535,3535,True
+ETFs,33,multi-swap,248,248,True
+ETFs,33,multi-swap,7889,7889,True
+ETFs,33,multi-swap,5912,5912,True
+ETFs,33,multi-swap,1864,1864,True
+ETFs,33,multi-swap,1142,1142,True
+ETFs,33,multi-swap,1166,1166,True
+ETFs,33,multi-swap,2616,2616,True
+ETFs,33,multi-swap,1829,1829,True
+ETFs,33,multi-swap,116,116,True
+ETFs,33,multi-swap,2465,2465,True
+ETFs,33,multi-swap,4346,4346,True
+ETFs,33,multi-swap,274,274,True
+ETFs,33,multi-swap,258,258,True
+ETFs,33,multi-swap,2841,2841,True
+ETFs,33,multi-swap,6656,6656,True
+ETFs,33,multi-swap,1017,1017,True
+ETFs,33,locally balanced,155,8680,True
+ETFs,33,locally balanced,405,22680,True
+ETFs,33,locally balanced,39,2184,True
+ETFs,33,locally balanced,185,10360,True
+ETFs,33,locally balanced,320,17920,True
+ETFs,33,locally balanced,525,29400,True
+ETFs,33,locally balanced,50,2800,True
+ETFs,33,locally balanced,55,3080,True
+ETFs,33,locally balanced,463,25928,True
+ETFs,33,locally balanced,141,7896,True
+ETFs,33,locally balanced,55,3080,True
+ETFs,33,locally balanced,26,1456,True
+ETFs,33,locally balanced,137,7672,True
+ETFs,33,locally balanced,408,22848,True
+ETFs,33,locally balanced,192,10752,True
+ETFs,33,locally balanced,16,896,True
+ETFs,33,locally balanced,30,1680,True
+ETFs,33,locally balanced,106,5936,True
+ETFs,33,locally balanced,8,448,True
+ETFs,33,locally balanced,120,6720,True
+ETFs,33,locally balanced,11,616,True
+ETFs,33,locally balanced,100,5600,True
+ETFs,33,locally balanced,54,3024,True
+ETFs,33,locally balanced,8,448,True
+ETFs,33,quantum complete+full,3917,3917,True
+ETFs,33,quantum complete+full,1919,1919,True
+ETFs,33,quantum complete+full,7019,7019,True
+ETFs,33,quantum complete+full,1524,1524,True
+ETFs,33,quantum complete+full,283,283,True
+ETFs,33,quantum complete+full,809,809,True
+ETFs,33,quantum complete+full,3765,3765,True
+ETFs,33,quantum complete+full,4114,4114,True
+ETFs,33,quantum complete+full,36,36,True
+ETFs,33,quantum complete+full,7112,7112,True
+ETFs,33,quantum complete+full,257,257,True
+ETFs,33,quantum complete+full,2178,2178,True
+ETFs,33,quantum complete+full,2379,2379,True
+ETFs,33,quantum complete+full,2223,2223,True
+ETFs,33,quantum complete+full,936,936,True
+ETFs,33,quantum complete+full,308,308,True
+ETFs,33,quantum complete+full,32,32,True
+ETFs,33,quantum complete+full,358,358,True
+ETFs,33,quantum complete+full,451,451,True
+ETFs,33,quantum complete+full,581,581,True
+ETFs,33,quantum complete+full,55,55,True
+ETFs,33,quantum complete+full,4571,4571,True
+ETFs,33,quantum complete+full,2374,2374,True
+ETFs,33,quantum complete+full,3005,3005,True
+ETFs,33,parallel tempering,7753,7753,True
+ETFs,33,parallel tempering,149,149,True
+ETFs,33,parallel tempering,121,121,True
+ETFs,33,parallel tempering,159,159,True
+ETFs,33,parallel tempering,2574,2574,True
+ETFs,33,parallel tempering,5213,5213,True
+ETFs,33,parallel tempering,3657,3657,True
+ETFs,33,parallel tempering,785,785,True
+ETFs,33,parallel tempering,539,539,True
+ETFs,33,parallel tempering,749,749,True
+ETFs,33,parallel tempering,329,329,True
+ETFs,33,parallel tempering,725,725,True
+ETFs,33,parallel tempering,1235,1235,True
+ETFs,33,parallel tempering,1394,1394,True
+ETFs,33,parallel tempering,1201,1201,True
+ETFs,33,parallel tempering,4417,4417,True
+ETFs,33,parallel tempering,1397,1397,True
+ETFs,33,parallel tempering,153,153,True
+ETFs,33,parallel tempering,2341,2341,True
+ETFs,33,parallel tempering,1951,1951,True
+ETFs,33,parallel tempering,67,67,True
+ETFs,33,parallel tempering,338,338,True
+ETFs,33,parallel tempering,1094,1094,True
+ETFs,33,parallel tempering,805,805,True
+ETFs,41,single swap,141,141,True
+ETFs,41,single swap,1194,1194,True
+ETFs,41,single swap,1648,1648,True
+ETFs,41,single swap,2709,2709,True
+ETFs,41,single swap,2089,2089,True
+ETFs,41,single swap,1081,1081,True
+ETFs,41,single swap,3010,3010,True
+ETFs,41,single swap,1314,1314,True
+ETFs,41,single swap,1299,1299,True
+ETFs,41,single swap,2621,2621,True
+ETFs,41,single swap,1822,1822,True
+ETFs,41,single swap,746,746,True
+ETFs,41,single swap,1237,1237,True
+ETFs,41,single swap,2790,2790,True
+ETFs,41,single swap,1266,1266,True
+ETFs,41,single swap,6435,6435,True
+ETFs,41,single swap,2834,2834,True
+ETFs,41,single swap,4063,4063,True
+ETFs,41,single swap,2140,2140,True
+ETFs,41,single swap,170,170,True
+ETFs,41,single swap,1303,1303,True
+ETFs,41,single swap,1699,1699,True
+ETFs,41,single swap,1948,1948,True
+ETFs,41,single swap,2570,2570,True
+ETFs,41,multi-swap,11307,11307,True
+ETFs,41,multi-swap,3185,3185,True
+ETFs,41,multi-swap,4184,4184,True
+ETFs,41,multi-swap,697,697,True
+ETFs,41,multi-swap,4632,4632,True
+ETFs,41,multi-swap,566,566,True
+ETFs,41,multi-swap,4958,4958,True
+ETFs,41,multi-swap,1696,1696,True
+ETFs,41,multi-swap,1370,1370,True
+ETFs,41,multi-swap,3524,3524,True
+ETFs,41,multi-swap,2439,2439,True
+ETFs,41,multi-swap,558,558,True
+ETFs,41,multi-swap,10294,10294,True
+ETFs,41,multi-swap,5127,5127,True
+ETFs,41,multi-swap,5288,5288,True
+ETFs,41,multi-swap,6462,6462,True
+ETFs,41,multi-swap,1395,1395,True
+ETFs,41,multi-swap,1375,1375,True
+ETFs,41,multi-swap,4438,4438,True
+ETFs,41,multi-swap,1114,1114,True
+ETFs,41,multi-swap,19,19,True
+ETFs,41,multi-swap,3011,3011,True
+ETFs,41,multi-swap,299,299,True
+ETFs,41,multi-swap,368,368,True
+ETFs,41,locally balanced,520,29120,True
+ETFs,41,locally balanced,708,39648,True
+ETFs,41,locally balanced,121,6776,True
+ETFs,41,locally balanced,269,15064,True
+ETFs,41,locally balanced,34,1904,True
+ETFs,41,locally balanced,104,5824,True
+ETFs,41,locally balanced,285,15960,True
+ETFs,41,locally balanced,345,19320,True
+ETFs,41,locally balanced,176,9856,True
+ETFs,41,locally balanced,433,24248,True
+ETFs,41,locally balanced,533,29848,True
+ETFs,41,locally balanced,129,7224,True
+ETFs,41,locally balanced,901,50456,True
+ETFs,41,locally balanced,576,32256,True
+ETFs,41,locally balanced,2749,153944,True
+ETFs,41,locally balanced,293,16408,True
+ETFs,41,locally balanced,134,7504,True
+ETFs,41,locally balanced,870,48720,True
+ETFs,41,locally balanced,48,2688,True
+ETFs,41,locally balanced,45,2520,True
+ETFs,41,locally balanced,72,4032,True
+ETFs,41,locally balanced,762,42672,True
+ETFs,41,locally balanced,318,17808,True
+ETFs,41,locally balanced,159,8904,True
+ETFs,41,quantum complete+full,526,526,True
+ETFs,41,quantum complete+full,4000,4000,True
+ETFs,41,quantum complete+full,614,614,True
+ETFs,41,quantum complete+full,4160,4160,True
+ETFs,41,quantum complete+full,2076,2076,True
+ETFs,41,quantum complete+full,7,7,True
+ETFs,41,quantum complete+full,1744,1744,True
+ETFs,41,quantum complete+full,4677,4677,True
+ETFs,41,quantum complete+full,4036,4036,True
+ETFs,41,quantum complete+full,1630,1630,True
+ETFs,41,quantum complete+full,978,978,True
+ETFs,41,quantum complete+full,1863,1863,True
+ETFs,41,quantum complete+full,4335,4335,True
+ETFs,41,quantum complete+full,2671,2671,True
+ETFs,41,quantum complete+full,1128,1128,True
+ETFs,41,quantum complete+full,1348,1348,True
+ETFs,41,quantum complete+full,3553,3553,True
+ETFs,41,quantum complete+full,383,383,True
+ETFs,41,quantum complete+full,1941,1941,True
+ETFs,41,quantum complete+full,1264,1264,True
+ETFs,41,quantum complete+full,434,434,True
+ETFs,41,quantum complete+full,1723,1723,True
+ETFs,41,quantum complete+full,3972,3972,True
+ETFs,41,quantum complete+full,1161,1161,True
+ETFs,41,parallel tempering,2464,2464,True
+ETFs,41,parallel tempering,289,289,True
+ETFs,41,parallel tempering,3432,3432,True
+ETFs,41,parallel tempering,9341,9341,True
+ETFs,41,parallel tempering,1758,1758,True
+ETFs,41,parallel tempering,2166,2166,True
+ETFs,41,parallel tempering,3474,3474,True
+ETFs,41,parallel tempering,3418,3418,True
+ETFs,41,parallel tempering,3872,3872,True
+ETFs,41,parallel tempering,661,661,True
+ETFs,41,parallel tempering,776,776,True
+ETFs,41,parallel tempering,1861,1861,True
+ETFs,41,parallel tempering,2804,2804,True
+ETFs,41,parallel tempering,10244,10244,True
+ETFs,41,parallel tempering,847,847,True
+ETFs,41,parallel tempering,6104,6104,True
+ETFs,41,parallel tempering,6353,6353,True
+ETFs,41,parallel tempering,5079,5079,True
+ETFs,41,parallel tempering,4092,4092,True
+ETFs,41,parallel tempering,1178,1178,True
+ETFs,41,parallel tempering,5333,5333,True
+ETFs,41,parallel tempering,3372,3372,True
+ETFs,41,parallel tempering,2885,2885,True
+ETFs,41,parallel tempering,7438,7438,True
+ETFs,49,single swap,2421,2421,True
+ETFs,49,single swap,35,35,True
+ETFs,49,single swap,1288,1288,True
+ETFs,49,single swap,533,533,True
+ETFs,49,single swap,1927,1927,True
+ETFs,49,single swap,2544,2544,True
+ETFs,49,single swap,632,632,True
+ETFs,49,single swap,352,352,True
+ETFs,49,single swap,1129,1129,True
+ETFs,49,single swap,180,180,True
+ETFs,49,single swap,3220,3220,True
+ETFs,49,single swap,1297,1297,True
+ETFs,49,single swap,216,216,True
+ETFs,49,single swap,51,51,True
+ETFs,49,single swap,635,635,True
+ETFs,49,single swap,245,245,True
+ETFs,49,single swap,3397,3397,True
+ETFs,49,single swap,346,346,True
+ETFs,49,single swap,500,500,True
+ETFs,49,single swap,441,441,True
+ETFs,49,single swap,2969,2969,True
+ETFs,49,single swap,1318,1318,True
+ETFs,49,single swap,1527,1527,True
+ETFs,49,single swap,403,403,True
+ETFs,49,multi-swap,2916,2916,True
+ETFs,49,multi-swap,2289,2289,True
+ETFs,49,multi-swap,2626,2626,True
+ETFs,49,multi-swap,1431,1431,True
+ETFs,49,multi-swap,52,52,True
+ETFs,49,multi-swap,239,239,True
+ETFs,49,multi-swap,2156,2156,True
+ETFs,49,multi-swap,4868,4868,True
+ETFs,49,multi-swap,895,895,True
+ETFs,49,multi-swap,2076,2076,True
+ETFs,49,multi-swap,3131,3131,True
+ETFs,49,multi-swap,122,122,True
+ETFs,49,multi-swap,1020,1020,True
+ETFs,49,multi-swap,13949,13949,True
+ETFs,49,multi-swap,2184,2184,True
+ETFs,49,multi-swap,346,346,True
+ETFs,49,multi-swap,5604,5604,True
+ETFs,49,multi-swap,2197,2197,True
+ETFs,49,multi-swap,924,924,True
+ETFs,49,multi-swap,717,717,True
+ETFs,49,multi-swap,4642,4642,True
+ETFs,49,multi-swap,1515,1515,True
+ETFs,49,multi-swap,4452,4452,True
+ETFs,49,multi-swap,12034,12034,True
+ETFs,49,locally balanced,125,7000,True
+ETFs,49,locally balanced,28,1568,True
+ETFs,49,locally balanced,167,9352,True
+ETFs,49,locally balanced,48,2688,True
+ETFs,49,locally balanced,68,3808,True
+ETFs,49,locally balanced,355,19880,True
+ETFs,49,locally balanced,269,15064,True
+ETFs,49,locally balanced,165,9240,True
+ETFs,49,locally balanced,55,3080,True
+ETFs,49,locally balanced,155,8680,True
+ETFs,49,locally balanced,271,15176,True
+ETFs,49,locally balanced,87,4872,True
+ETFs,49,locally balanced,360,20160,True
+ETFs,49,locally balanced,19,1064,True
+ETFs,49,locally balanced,269,15064,True
+ETFs,49,locally balanced,25,1400,True
+ETFs,49,locally balanced,121,6776,True
+ETFs,49,locally balanced,58,3248,True
+ETFs,49,locally balanced,120,6720,True
+ETFs,49,locally balanced,61,3416,True
+ETFs,49,locally balanced,455,25480,True
+ETFs,49,locally balanced,33,1848,True
+ETFs,49,locally balanced,55,3080,True
+ETFs,49,locally balanced,96,5376,True
+ETFs,49,quantum complete+full,638,638,True
+ETFs,49,quantum complete+full,3589,3589,True
+ETFs,49,quantum complete+full,930,930,True
+ETFs,49,quantum complete+full,4078,4078,True
+ETFs,49,quantum complete+full,869,869,True
+ETFs,49,quantum complete+full,1207,1207,True
+ETFs,49,quantum complete+full,4852,4852,True
+ETFs,49,quantum complete+full,1308,1308,True
+ETFs,49,quantum complete+full,336,336,True
+ETFs,49,quantum complete+full,1533,1533,True
+ETFs,49,quantum complete+full,2031,2031,True
+ETFs,49,quantum complete+full,598,598,True
+ETFs,49,quantum complete+full,49,49,True
+ETFs,49,quantum complete+full,969,969,True
+ETFs,49,quantum complete+full,3384,3384,True
+ETFs,49,quantum complete+full,3688,3688,True
+ETFs,49,quantum complete+full,978,978,True
+ETFs,49,quantum complete+full,2754,2754,True
+ETFs,49,quantum complete+full,41,41,True
+ETFs,49,quantum complete+full,679,679,True
+ETFs,49,quantum complete+full,3620,3620,True
+ETFs,49,quantum complete+full,2006,2006,True
+ETFs,49,quantum complete+full,231,231,True
+ETFs,49,quantum complete+full,3561,3561,True
+ETFs,49,parallel tempering,3645,3645,True
+ETFs,49,parallel tempering,1005,1005,True
+ETFs,49,parallel tempering,1609,1609,True
+ETFs,49,parallel tempering,4353,4353,True
+ETFs,49,parallel tempering,627,627,True
+ETFs,49,parallel tempering,2041,2041,True
+ETFs,49,parallel tempering,3137,3137,True
+ETFs,49,parallel tempering,1258,1258,True
+ETFs,49,parallel tempering,618,618,True
+ETFs,49,parallel tempering,422,422,True
+ETFs,49,parallel tempering,3198,3198,True
+ETFs,49,parallel tempering,2423,2423,True
+ETFs,49,parallel tempering,815,815,True
+ETFs,49,parallel tempering,337,337,True
+ETFs,49,parallel tempering,257,257,True
+ETFs,49,parallel tempering,176,176,True
+ETFs,49,parallel tempering,223,223,True
+ETFs,49,parallel tempering,1529,1529,True
+ETFs,49,parallel tempering,918,918,True
+ETFs,49,parallel tempering,505,505,True
+ETFs,49,parallel tempering,597,597,True
+ETFs,49,parallel tempering,2966,2966,True
+ETFs,49,parallel tempering,221,221,True
+ETFs,49,parallel tempering,170,170,True
+ETFs,57,single swap,607,607,True
+ETFs,57,single swap,222,222,True
+ETFs,57,single swap,297,297,True
+ETFs,57,single swap,1300,1300,True
+ETFs,57,single swap,176,176,True
+ETFs,57,single swap,105,105,True
+ETFs,57,single swap,382,382,True
+ETFs,57,single swap,315,315,True
+ETFs,57,single swap,105,105,True
+ETFs,57,single swap,384,384,True
+ETFs,57,single swap,621,621,True
+ETFs,57,single swap,187,187,True
+ETFs,57,single swap,321,321,True
+ETFs,57,single swap,842,842,True
+ETFs,57,single swap,46,46,True
+ETFs,57,single swap,327,327,True
+ETFs,57,single swap,275,275,True
+ETFs,57,single swap,27,27,True
+ETFs,57,single swap,903,903,True
+ETFs,57,single swap,1101,1101,True
+ETFs,57,single swap,789,789,True
+ETFs,57,single swap,1608,1608,True
+ETFs,57,single swap,247,247,True
+ETFs,57,single swap,203,203,True
+ETFs,57,multi-swap,1877,1877,True
+ETFs,57,multi-swap,890,890,True
+ETFs,57,multi-swap,2242,2242,True
+ETFs,57,multi-swap,76,76,True
+ETFs,57,multi-swap,2968,2968,True
+ETFs,57,multi-swap,64,64,True
+ETFs,57,multi-swap,187,187,True
+ETFs,57,multi-swap,260,260,True
+ETFs,57,multi-swap,728,728,True
+ETFs,57,multi-swap,449,449,True
+ETFs,57,multi-swap,464,464,True
+ETFs,57,multi-swap,487,487,True
+ETFs,57,multi-swap,3684,3684,True
+ETFs,57,multi-swap,226,226,True
+ETFs,57,multi-swap,1682,1682,True
+ETFs,57,multi-swap,2019,2019,True
+ETFs,57,multi-swap,22,22,True
+ETFs,57,multi-swap,234,234,True
+ETFs,57,multi-swap,1361,1361,True
+ETFs,57,multi-swap,1017,1017,True
+ETFs,57,multi-swap,969,969,True
+ETFs,57,multi-swap,770,770,True
+ETFs,57,multi-swap,271,271,True
+ETFs,57,multi-swap,7,7,True
+ETFs,57,locally balanced,24,1344,True
+ETFs,57,locally balanced,3,168,True
+ETFs,57,locally balanced,254,14224,True
+ETFs,57,locally balanced,110,6160,True
+ETFs,57,locally balanced,106,5936,True
+ETFs,57,locally balanced,28,1568,True
+ETFs,57,locally balanced,7,392,True
+ETFs,57,locally balanced,39,2184,True
+ETFs,57,locally balanced,17,952,True
+ETFs,57,locally balanced,20,1120,True
+ETFs,57,locally balanced,70,3920,True
+ETFs,57,locally balanced,22,1232,True
+ETFs,57,locally balanced,105,5880,True
+ETFs,57,locally balanced,175,9800,True
+ETFs,57,locally balanced,4,224,True
+ETFs,57,locally balanced,43,2408,True
+ETFs,57,locally balanced,24,1344,True
+ETFs,57,locally balanced,28,1568,True
+ETFs,57,locally balanced,31,1736,True
+ETFs,57,locally balanced,68,3808,True
+ETFs,57,locally balanced,95,5320,True
+ETFs,57,locally balanced,57,3192,True
+ETFs,57,locally balanced,15,840,True
+ETFs,57,locally balanced,40,2240,True
+ETFs,57,quantum complete+full,595,595,True
+ETFs,57,quantum complete+full,26,26,True
+ETFs,57,quantum complete+full,348,348,True
+ETFs,57,quantum complete+full,1156,1156,True
+ETFs,57,quantum complete+full,267,267,True
+ETFs,57,quantum complete+full,82,82,True
+ETFs,57,quantum complete+full,327,327,True
+ETFs,57,quantum complete+full,700,700,True
+ETFs,57,quantum complete+full,1229,1229,True
+ETFs,57,quantum complete+full,682,682,True
+ETFs,57,quantum complete+full,253,253,True
+ETFs,57,quantum complete+full,120,120,True
+ETFs,57,quantum complete+full,497,497,True
+ETFs,57,quantum complete+full,628,628,True
+ETFs,57,quantum complete+full,179,179,True
+ETFs,57,quantum complete+full,1444,1444,True
+ETFs,57,quantum complete+full,579,579,True
+ETFs,57,quantum complete+full,860,860,True
+ETFs,57,quantum complete+full,392,392,True
+ETFs,57,quantum complete+full,593,593,True
+ETFs,57,quantum complete+full,253,253,True
+ETFs,57,quantum complete+full,341,341,True
+ETFs,57,quantum complete+full,893,893,True
+ETFs,57,quantum complete+full,769,769,True
+ETFs,57,parallel tempering,1177,1177,True
+ETFs,57,parallel tempering,293,293,True
+ETFs,57,parallel tempering,145,145,True
+ETFs,57,parallel tempering,177,177,True
+ETFs,57,parallel tempering,1456,1456,True
+ETFs,57,parallel tempering,157,157,True
+ETFs,57,parallel tempering,577,577,True
+ETFs,57,parallel tempering,1249,1249,True
+ETFs,57,parallel tempering,441,441,True
+ETFs,57,parallel tempering,373,373,True
+ETFs,57,parallel tempering,2017,2017,True
+ETFs,57,parallel tempering,1313,1313,True
+ETFs,57,parallel tempering,1941,1941,True
+ETFs,57,parallel tempering,798,798,True
+ETFs,57,parallel tempering,433,433,True
+ETFs,57,parallel tempering,446,446,True
+ETFs,57,parallel tempering,169,169,True
+ETFs,57,parallel tempering,346,346,True
+ETFs,57,parallel tempering,247,247,True
+ETFs,57,parallel tempering,317,317,True
+ETFs,57,parallel tempering,2518,2518,True
+ETFs,57,parallel tempering,182,182,True
+ETFs,57,parallel tempering,1025,1025,True
+ETFs,57,parallel tempering,189,189,True
+stocks,1,single swap,84,84,True
+stocks,1,single swap,47,47,True
+stocks,1,single swap,200,200,True
+stocks,1,single swap,202,202,True
+stocks,1,single swap,886,886,True
+stocks,1,single swap,626,626,True
+stocks,1,single swap,141,141,True
+stocks,1,single swap,134,134,True
+stocks,1,single swap,377,377,True
+stocks,1,single swap,160,160,True
+stocks,1,single swap,42,42,True
+stocks,1,single swap,387,387,True
+stocks,1,single swap,428,428,True
+stocks,1,single swap,1457,1457,True
+stocks,1,single swap,439,439,True
+stocks,1,single swap,950,950,True
+stocks,1,single swap,1268,1268,True
+stocks,1,single swap,631,631,True
+stocks,1,single swap,453,453,True
+stocks,1,single swap,294,294,True
+stocks,1,single swap,127,127,True
+stocks,1,single swap,1039,1039,True
+stocks,1,single swap,30,30,True
+stocks,1,single swap,38,38,True
+stocks,1,multi-swap,176,176,True
+stocks,1,multi-swap,766,766,True
+stocks,1,multi-swap,1951,1951,True
+stocks,1,multi-swap,252,252,True
+stocks,1,multi-swap,1615,1615,True
+stocks,1,multi-swap,677,677,True
+stocks,1,multi-swap,943,943,True
+stocks,1,multi-swap,2005,2005,True
+stocks,1,multi-swap,1003,1003,True
+stocks,1,multi-swap,945,945,True
+stocks,1,multi-swap,2261,2261,True
+stocks,1,multi-swap,1417,1417,True
+stocks,1,multi-swap,4964,4964,True
+stocks,1,multi-swap,5890,5890,True
+stocks,1,multi-swap,584,584,True
+stocks,1,multi-swap,2411,2411,True
+stocks,1,multi-swap,201,201,True
+stocks,1,multi-swap,4851,4851,True
+stocks,1,multi-swap,1994,1994,True
+stocks,1,multi-swap,1745,1745,True
+stocks,1,multi-swap,1341,1341,True
+stocks,1,multi-swap,922,922,True
+stocks,1,multi-swap,63,63,True
+stocks,1,multi-swap,4072,4072,True
+stocks,1,locally balanced,272,15232,True
+stocks,1,locally balanced,58,3248,True
+stocks,1,locally balanced,9,504,True
+stocks,1,locally balanced,36,2016,True
+stocks,1,locally balanced,375,21000,True
+stocks,1,locally balanced,261,14616,True
+stocks,1,locally balanced,73,4088,True
+stocks,1,locally balanced,60,3360,True
+stocks,1,locally balanced,8,448,True
+stocks,1,locally balanced,102,5712,True
+stocks,1,locally balanced,6,336,True
+stocks,1,locally balanced,23,1288,True
+stocks,1,locally balanced,74,4144,True
+stocks,1,locally balanced,20,1120,True
+stocks,1,locally balanced,6,336,True
+stocks,1,locally balanced,383,21448,True
+stocks,1,locally balanced,42,2352,True
+stocks,1,locally balanced,43,2408,True
+stocks,1,locally balanced,255,14280,True
+stocks,1,locally balanced,113,6328,True
+stocks,1,locally balanced,145,8120,True
+stocks,1,locally balanced,3,168,True
+stocks,1,locally balanced,15,840,True
+stocks,1,locally balanced,79,4424,True
+stocks,1,quantum complete+full,429,429,True
+stocks,1,quantum complete+full,849,849,True
+stocks,1,quantum complete+full,658,658,True
+stocks,1,quantum complete+full,2638,2638,True
+stocks,1,quantum complete+full,144,144,True
+stocks,1,quantum complete+full,520,520,True
+stocks,1,quantum complete+full,1542,1542,True
+stocks,1,quantum complete+full,1080,1080,True
+stocks,1,quantum complete+full,2039,2039,True
+stocks,1,quantum complete+full,3142,3142,True
+stocks,1,quantum complete+full,144,144,True
+stocks,1,quantum complete+full,910,910,True
+stocks,1,quantum complete+full,956,956,True
+stocks,1,quantum complete+full,2431,2431,True
+stocks,1,quantum complete+full,301,301,True
+stocks,1,quantum complete+full,1884,1884,True
+stocks,1,quantum complete+full,1290,1290,True
+stocks,1,quantum complete+full,36,36,True
+stocks,1,quantum complete+full,930,930,True
+stocks,1,quantum complete+full,1636,1636,True
+stocks,1,quantum complete+full,701,701,True
+stocks,1,quantum complete+full,773,773,True
+stocks,1,quantum complete+full,431,431,True
+stocks,1,quantum complete+full,1945,1945,True
+stocks,1,parallel tempering,201,201,True
+stocks,1,parallel tempering,110,110,True
+stocks,1,parallel tempering,201,201,True
+stocks,1,parallel tempering,2299,2299,True
+stocks,1,parallel tempering,777,777,True
+stocks,1,parallel tempering,29,29,True
+stocks,1,parallel tempering,703,703,True
+stocks,1,parallel tempering,1017,1017,True
+stocks,1,parallel tempering,681,681,True
+stocks,1,parallel tempering,253,253,True
+stocks,1,parallel tempering,1829,1829,True
+stocks,1,parallel tempering,2279,2279,True
+stocks,1,parallel tempering,1375,1375,True
+stocks,1,parallel tempering,1381,1381,True
+stocks,1,parallel tempering,3505,3505,True
+stocks,1,parallel tempering,1118,1118,True
+stocks,1,parallel tempering,32,32,True
+stocks,1,parallel tempering,517,517,True
+stocks,1,parallel tempering,1517,1517,True
+stocks,1,parallel tempering,537,537,True
+stocks,1,parallel tempering,118,118,True
+stocks,1,parallel tempering,2260,2260,True
+stocks,1,parallel tempering,188,188,True
+stocks,1,parallel tempering,2497,2497,True
+stocks,9,single swap,1335,1335,True
+stocks,9,single swap,228,228,True
+stocks,9,single swap,436,436,True
+stocks,9,single swap,111,111,True
+stocks,9,single swap,683,683,True
+stocks,9,single swap,452,452,True
+stocks,9,single swap,787,787,True
+stocks,9,single swap,1419,1419,True
+stocks,9,single swap,327,327,True
+stocks,9,single swap,1494,1494,True
+stocks,9,single swap,1213,1213,True
+stocks,9,single swap,124,124,True
+stocks,9,single swap,370,370,True
+stocks,9,single swap,286,286,True
+stocks,9,single swap,309,309,True
+stocks,9,single swap,124,124,True
+stocks,9,single swap,206,206,True
+stocks,9,single swap,735,735,True
+stocks,9,single swap,55,55,True
+stocks,9,single swap,413,413,True
+stocks,9,single swap,790,790,True
+stocks,9,single swap,1212,1212,True
+stocks,9,single swap,424,424,True
+stocks,9,single swap,844,844,True
+stocks,9,multi-swap,2062,2062,True
+stocks,9,multi-swap,531,531,True
+stocks,9,multi-swap,533,533,True
+stocks,9,multi-swap,738,738,True
+stocks,9,multi-swap,456,456,True
+stocks,9,multi-swap,297,297,True
+stocks,9,multi-swap,1938,1938,True
+stocks,9,multi-swap,133,133,True
+stocks,9,multi-swap,559,559,True
+stocks,9,multi-swap,768,768,True
+stocks,9,multi-swap,1285,1285,True
+stocks,9,multi-swap,1311,1311,True
+stocks,9,multi-swap,3303,3303,True
+stocks,9,multi-swap,948,948,True
+stocks,9,multi-swap,5556,5556,True
+stocks,9,multi-swap,4213,4213,True
+stocks,9,multi-swap,1169,1169,True
+stocks,9,multi-swap,89,89,True
+stocks,9,multi-swap,297,297,True
+stocks,9,multi-swap,183,183,True
+stocks,9,multi-swap,1171,1171,True
+stocks,9,multi-swap,3808,3808,True
+stocks,9,multi-swap,1726,1726,True
+stocks,9,multi-swap,3352,3352,True
+stocks,9,locally balanced,188,10528,True
+stocks,9,locally balanced,335,18760,True
+stocks,9,locally balanced,286,16016,True
+stocks,9,locally balanced,51,2856,True
+stocks,9,locally balanced,98,5488,True
+stocks,9,locally balanced,11,616,True
+stocks,9,locally balanced,315,17640,True
+stocks,9,locally balanced,104,5824,True
+stocks,9,locally balanced,275,15400,True
+stocks,9,locally balanced,69,3864,True
+stocks,9,locally balanced,68,3808,True
+stocks,9,locally balanced,136,7616,True
+stocks,9,locally balanced,94,5264,True
+stocks,9,locally balanced,50,2800,True
+stocks,9,locally balanced,40,2240,True
+stocks,9,locally balanced,328,18368,True
+stocks,9,locally balanced,33,1848,True
+stocks,9,locally balanced,26,1456,True
+stocks,9,locally balanced,123,6888,True
+stocks,9,locally balanced,119,6664,True
+stocks,9,locally balanced,320,17920,True
+stocks,9,locally balanced,153,8568,True
+stocks,9,locally balanced,2,112,True
+stocks,9,locally balanced,77,4312,True
+stocks,9,quantum complete+full,2535,2535,True
+stocks,9,quantum complete+full,417,417,True
+stocks,9,quantum complete+full,774,774,True
+stocks,9,quantum complete+full,1611,1611,True
+stocks,9,quantum complete+full,393,393,True
+stocks,9,quantum complete+full,525,525,True
+stocks,9,quantum complete+full,1241,1241,True
+stocks,9,quantum complete+full,4319,4319,True
+stocks,9,quantum complete+full,887,887,True
+stocks,9,quantum complete+full,1027,1027,True
+stocks,9,quantum complete+full,1168,1168,True
+stocks,9,quantum complete+full,332,332,True
+stocks,9,quantum complete+full,2989,2989,True
+stocks,9,quantum complete+full,314,314,True
+stocks,9,quantum complete+full,578,578,True
+stocks,9,quantum complete+full,1186,1186,True
+stocks,9,quantum complete+full,360,360,True
+stocks,9,quantum complete+full,2806,2806,True
+stocks,9,quantum complete+full,1020,1020,True
+stocks,9,quantum complete+full,3893,3893,True
+stocks,9,quantum complete+full,1375,1375,True
+stocks,9,quantum complete+full,342,342,True
+stocks,9,quantum complete+full,1233,1233,True
+stocks,9,quantum complete+full,929,929,True
+stocks,9,parallel tempering,1322,1322,True
+stocks,9,parallel tempering,255,255,True
+stocks,9,parallel tempering,1205,1205,True
+stocks,9,parallel tempering,1501,1501,True
+stocks,9,parallel tempering,213,213,True
+stocks,9,parallel tempering,389,389,True
+stocks,9,parallel tempering,985,985,True
+stocks,9,parallel tempering,302,302,True
+stocks,9,parallel tempering,1932,1932,True
+stocks,9,parallel tempering,93,93,True
+stocks,9,parallel tempering,942,942,True
+stocks,9,parallel tempering,781,781,True
+stocks,9,parallel tempering,341,341,True
+stocks,9,parallel tempering,729,729,True
+stocks,9,parallel tempering,941,941,True
+stocks,9,parallel tempering,766,766,True
+stocks,9,parallel tempering,558,558,True
+stocks,9,parallel tempering,1193,1193,True
+stocks,9,parallel tempering,1477,1477,True
+stocks,9,parallel tempering,58,58,True
+stocks,9,parallel tempering,357,357,True
+stocks,9,parallel tempering,147,147,True
+stocks,9,parallel tempering,670,670,True
+stocks,9,parallel tempering,273,273,True
+stocks,17,single swap,137,137,True
+stocks,17,single swap,54,54,True
+stocks,17,single swap,341,341,True
+stocks,17,single swap,85,85,True
+stocks,17,single swap,280,280,True
+stocks,17,single swap,518,518,True
+stocks,17,single swap,25,25,True
+stocks,17,single swap,269,269,True
+stocks,17,single swap,1728,1728,True
+stocks,17,single swap,751,751,True
+stocks,17,single swap,193,193,True
+stocks,17,single swap,867,867,True
+stocks,17,single swap,649,649,True
+stocks,17,single swap,2069,2069,True
+stocks,17,single swap,1650,1650,True
+stocks,17,single swap,285,285,True
+stocks,17,single swap,206,206,True
+stocks,17,single swap,58,58,True
+stocks,17,single swap,1816,1816,True
+stocks,17,single swap,1643,1643,True
+stocks,17,single swap,1411,1411,True
+stocks,17,single swap,332,332,True
+stocks,17,single swap,868,868,True
+stocks,17,single swap,220,220,True
+stocks,17,multi-swap,773,773,True
+stocks,17,multi-swap,496,496,True
+stocks,17,multi-swap,2393,2393,True
+stocks,17,multi-swap,851,851,True
+stocks,17,multi-swap,1547,1547,True
+stocks,17,multi-swap,204,204,True
+stocks,17,multi-swap,3866,3866,True
+stocks,17,multi-swap,297,297,True
+stocks,17,multi-swap,965,965,True
+stocks,17,multi-swap,2594,2594,True
+stocks,17,multi-swap,2529,2529,True
+stocks,17,multi-swap,1355,1355,True
+stocks,17,multi-swap,2640,2640,True
+stocks,17,multi-swap,4697,4697,True
+stocks,17,multi-swap,378,378,True
+stocks,17,multi-swap,905,905,True
+stocks,17,multi-swap,763,763,True
+stocks,17,multi-swap,116,116,True
+stocks,17,multi-swap,774,774,True
+stocks,17,multi-swap,1562,1562,True
+stocks,17,multi-swap,526,526,True
+stocks,17,multi-swap,1667,1667,True
+stocks,17,multi-swap,1220,1220,True
+stocks,17,multi-swap,300,300,True
+stocks,17,locally balanced,30,1680,True
+stocks,17,locally balanced,5,280,True
+stocks,17,locally balanced,6,336,True
+stocks,17,locally balanced,92,5152,True
+stocks,17,locally balanced,315,17640,True
+stocks,17,locally balanced,3,168,True
+stocks,17,locally balanced,248,13888,True
+stocks,17,locally balanced,9,504,True
+stocks,17,locally balanced,112,6272,True
+stocks,17,locally balanced,106,5936,True
+stocks,17,locally balanced,13,728,True
+stocks,17,locally balanced,3,168,True
+stocks,17,locally balanced,389,21784,True
+stocks,17,locally balanced,94,5264,True
+stocks,17,locally balanced,100,5600,True
+stocks,17,locally balanced,203,11368,True
+stocks,17,locally balanced,25,1400,True
+stocks,17,locally balanced,38,2128,True
+stocks,17,locally balanced,57,3192,True
+stocks,17,locally balanced,8,448,True
+stocks,17,locally balanced,90,5040,True
+stocks,17,locally balanced,33,1848,True
+stocks,17,locally balanced,4,224,True
+stocks,17,locally balanced,6,336,True
+stocks,17,quantum complete+full,3284,3284,True
+stocks,17,quantum complete+full,2225,2225,True
+stocks,17,quantum complete+full,617,617,True
+stocks,17,quantum complete+full,3604,3604,True
+stocks,17,quantum complete+full,134,134,True
+stocks,17,quantum complete+full,3853,3853,True
+stocks,17,quantum complete+full,557,557,True
+stocks,17,quantum complete+full,1983,1983,True
+stocks,17,quantum complete+full,706,706,True
+stocks,17,quantum complete+full,2948,2948,True
+stocks,17,quantum complete+full,493,493,True
+stocks,17,quantum complete+full,4019,4019,True
+stocks,17,quantum complete+full,1832,1832,True
+stocks,17,quantum complete+full,1082,1082,True
+stocks,17,quantum complete+full,1223,1223,True
+stocks,17,quantum complete+full,830,830,True
+stocks,17,quantum complete+full,1695,1695,True
+stocks,17,quantum complete+full,812,812,True
+stocks,17,quantum complete+full,7187,7187,True
+stocks,17,quantum complete+full,1208,1208,True
+stocks,17,quantum complete+full,4962,4962,True
+stocks,17,quantum complete+full,4974,4974,True
+stocks,17,quantum complete+full,700,700,True
+stocks,17,quantum complete+full,379,379,True
+stocks,17,parallel tempering,948,948,True
+stocks,17,parallel tempering,117,117,True
+stocks,17,parallel tempering,1289,1289,True
+stocks,17,parallel tempering,437,437,True
+stocks,17,parallel tempering,765,765,True
+stocks,17,parallel tempering,141,141,True
+stocks,17,parallel tempering,854,854,True
+stocks,17,parallel tempering,82,82,True
+stocks,17,parallel tempering,1015,1015,True
+stocks,17,parallel tempering,389,389,True
+stocks,17,parallel tempering,493,493,True
+stocks,17,parallel tempering,453,453,True
+stocks,17,parallel tempering,358,358,True
+stocks,17,parallel tempering,333,333,True
+stocks,17,parallel tempering,101,101,True
+stocks,17,parallel tempering,661,661,True
+stocks,17,parallel tempering,190,190,True
+stocks,17,parallel tempering,450,450,True
+stocks,17,parallel tempering,493,493,True
+stocks,17,parallel tempering,660,660,True
+stocks,17,parallel tempering,169,169,True
+stocks,17,parallel tempering,569,569,True
+stocks,17,parallel tempering,525,525,True
+stocks,17,parallel tempering,101,101,True
+stocks,25,single swap,1221,1221,True
+stocks,25,single swap,453,453,True
+stocks,25,single swap,378,378,True
+stocks,25,single swap,455,455,True
+stocks,25,single swap,927,927,True
+stocks,25,single swap,1114,1114,True
+stocks,25,single swap,62,62,True
+stocks,25,single swap,1705,1705,True
+stocks,25,single swap,1861,1861,True
+stocks,25,single swap,214,214,True
+stocks,25,single swap,1394,1394,True
+stocks,25,single swap,170,170,True
+stocks,25,single swap,1940,1940,True
+stocks,25,single swap,291,291,True
+stocks,25,single swap,294,294,True
+stocks,25,single swap,1194,1194,True
+stocks,25,single swap,41,41,True
+stocks,25,single swap,288,288,True
+stocks,25,single swap,932,932,True
+stocks,25,single swap,56,56,True
+stocks,25,single swap,1055,1055,True
+stocks,25,single swap,851,851,True
+stocks,25,single swap,858,858,True
+stocks,25,single swap,47,47,True
+stocks,25,multi-swap,59,59,True
+stocks,25,multi-swap,1290,1290,True
+stocks,25,multi-swap,60,60,True
+stocks,25,multi-swap,318,318,True
+stocks,25,multi-swap,699,699,True
+stocks,25,multi-swap,3092,3092,True
+stocks,25,multi-swap,1960,1960,True
+stocks,25,multi-swap,84,84,True
+stocks,25,multi-swap,1202,1202,True
+stocks,25,multi-swap,331,331,True
+stocks,25,multi-swap,467,467,True
+stocks,25,multi-swap,1861,1861,True
+stocks,25,multi-swap,657,657,True
+stocks,25,multi-swap,1557,1557,True
+stocks,25,multi-swap,1255,1255,True
+stocks,25,multi-swap,85,85,True
+stocks,25,multi-swap,3709,3709,True
+stocks,25,multi-swap,166,166,True
+stocks,25,multi-swap,427,427,True
+stocks,25,multi-swap,436,436,True
+stocks,25,multi-swap,1926,1926,True
+stocks,25,multi-swap,771,771,True
+stocks,25,multi-swap,2260,2260,True
+stocks,25,multi-swap,104,104,True
+stocks,25,locally balanced,168,9408,True
+stocks,25,locally balanced,143,8008,True
+stocks,25,locally balanced,35,1960,True
+stocks,25,locally balanced,13,728,True
+stocks,25,locally balanced,29,1624,True
+stocks,25,locally balanced,24,1344,True
+stocks,25,locally balanced,53,2968,True
+stocks,25,locally balanced,72,4032,True
+stocks,25,locally balanced,24,1344,True
+stocks,25,locally balanced,14,784,True
+stocks,25,locally balanced,67,3752,True
+stocks,25,locally balanced,31,1736,True
+stocks,25,locally balanced,10,560,True
+stocks,25,locally balanced,51,2856,True
+stocks,25,locally balanced,77,4312,True
+stocks,25,locally balanced,172,9632,True
+stocks,25,locally balanced,9,504,True
+stocks,25,locally balanced,24,1344,True
+stocks,25,locally balanced,16,896,True
+stocks,25,locally balanced,4,224,True
+stocks,25,locally balanced,85,4760,True
+stocks,25,locally balanced,14,784,True
+stocks,25,locally balanced,6,336,True
+stocks,25,locally balanced,18,1008,True
+stocks,25,quantum complete+full,260,260,True
+stocks,25,quantum complete+full,298,298,True
+stocks,25,quantum complete+full,145,145,True
+stocks,25,quantum complete+full,682,682,True
+stocks,25,quantum complete+full,1358,1358,True
+stocks,25,quantum complete+full,1986,1986,True
+stocks,25,quantum complete+full,1306,1306,True
+stocks,25,quantum complete+full,510,510,True
+stocks,25,quantum complete+full,196,196,True
+stocks,25,quantum complete+full,917,917,True
+stocks,25,quantum complete+full,2401,2401,True
+stocks,25,quantum complete+full,1325,1325,True
+stocks,25,quantum complete+full,328,328,True
+stocks,25,quantum complete+full,2251,2251,True
+stocks,25,quantum complete+full,1411,1411,True
+stocks,25,quantum complete+full,558,558,True
+stocks,25,quantum complete+full,532,532,True
+stocks,25,quantum complete+full,610,610,True
+stocks,25,quantum complete+full,874,874,True
+stocks,25,quantum complete+full,189,189,True
+stocks,25,quantum complete+full,1461,1461,True
+stocks,25,quantum complete+full,1801,1801,True
+stocks,25,quantum complete+full,466,466,True
+stocks,25,quantum complete+full,1111,1111,True
+stocks,25,parallel tempering,189,189,True
+stocks,25,parallel tempering,958,958,True
+stocks,25,parallel tempering,429,429,True
+stocks,25,parallel tempering,25,25,True
+stocks,25,parallel tempering,6365,6365,True
+stocks,25,parallel tempering,338,338,True
+stocks,25,parallel tempering,954,954,True
+stocks,25,parallel tempering,1789,1789,True
+stocks,25,parallel tempering,1954,1954,True
+stocks,25,parallel tempering,328,328,True
+stocks,25,parallel tempering,1354,1354,True
+stocks,25,parallel tempering,322,322,True
+stocks,25,parallel tempering,1565,1565,True
+stocks,25,parallel tempering,834,834,True
+stocks,25,parallel tempering,877,877,True
+stocks,25,parallel tempering,394,394,True
+stocks,25,parallel tempering,1605,1605,True
+stocks,25,parallel tempering,1950,1950,True
+stocks,25,parallel tempering,105,105,True
+stocks,25,parallel tempering,1865,1865,True
+stocks,25,parallel tempering,4849,4849,True
+stocks,25,parallel tempering,447,447,True
+stocks,25,parallel tempering,685,685,True
+stocks,25,parallel tempering,1692,1692,True
+stocks,33,single swap,1714,1714,True
+stocks,33,single swap,2526,2526,True
+stocks,33,single swap,337,337,True
+stocks,33,single swap,189,189,True
+stocks,33,single swap,444,444,True
+stocks,33,single swap,3259,3259,True
+stocks,33,single swap,1024,1024,True
+stocks,33,single swap,554,554,True
+stocks,33,single swap,400,400,True
+stocks,33,single swap,501,501,True
+stocks,33,single swap,261,261,True
+stocks,33,single swap,384,384,True
+stocks,33,single swap,1727,1727,True
+stocks,33,single swap,3537,3537,True
+stocks,33,single swap,2356,2356,True
+stocks,33,single swap,815,815,True
+stocks,33,single swap,3299,3299,True
+stocks,33,single swap,1609,1609,True
+stocks,33,single swap,1021,1021,True
+stocks,33,single swap,1378,1378,True
+stocks,33,single swap,1148,1148,True
+stocks,33,single swap,1166,1166,True
+stocks,33,single swap,1871,1871,True
+stocks,33,single swap,695,695,True
+stocks,33,multi-swap,11,11,True
+stocks,33,multi-swap,529,529,True
+stocks,33,multi-swap,690,690,True
+stocks,33,multi-swap,1590,1590,True
+stocks,33,multi-swap,2737,2737,True
+stocks,33,multi-swap,7525,7525,True
+stocks,33,multi-swap,2152,2152,True
+stocks,33,multi-swap,5169,5169,True
+stocks,33,multi-swap,1889,1889,True
+stocks,33,multi-swap,323,323,True
+stocks,33,multi-swap,2146,2146,True
+stocks,33,multi-swap,10,10,True
+stocks,33,multi-swap,270,270,True
+stocks,33,multi-swap,9673,9673,True
+stocks,33,multi-swap,371,371,True
+stocks,33,multi-swap,64,64,True
+stocks,33,multi-swap,2399,2399,True
+stocks,33,multi-swap,11416,11416,True
+stocks,33,multi-swap,2234,2234,True
+stocks,33,multi-swap,2019,2019,True
+stocks,33,multi-swap,1276,1276,True
+stocks,33,multi-swap,2703,2703,True
+stocks,33,multi-swap,3699,3699,True
+stocks,33,multi-swap,1044,1044,True
+stocks,33,locally balanced,250,14000,True
+stocks,33,locally balanced,121,6776,True
+stocks,33,locally balanced,109,6104,True
+stocks,33,locally balanced,147,8232,True
+stocks,33,locally balanced,22,1232,True
+stocks,33,locally balanced,8,448,True
+stocks,33,locally balanced,83,4648,True
+stocks,33,locally balanced,162,9072,True
+stocks,33,locally balanced,92,5152,True
+stocks,33,locally balanced,35,1960,True
+stocks,33,locally balanced,729,40824,True
+stocks,33,locally balanced,7,392,True
+stocks,33,locally balanced,487,27272,True
+stocks,33,locally balanced,52,2912,True
+stocks,33,locally balanced,36,2016,True
+stocks,33,locally balanced,26,1456,True
+stocks,33,locally balanced,120,6720,True
+stocks,33,locally balanced,29,1624,True
+stocks,33,locally balanced,43,2408,True
+stocks,33,locally balanced,35,1960,True
+stocks,33,locally balanced,201,11256,True
+stocks,33,locally balanced,164,9184,True
+stocks,33,locally balanced,213,11928,True
+stocks,33,locally balanced,444,24864,True
+stocks,33,quantum complete+full,3677,3677,True
+stocks,33,quantum complete+full,283,283,True
+stocks,33,quantum complete+full,703,703,True
+stocks,33,quantum complete+full,241,241,True
+stocks,33,quantum complete+full,251,251,True
+stocks,33,quantum complete+full,670,670,True
+stocks,33,quantum complete+full,956,956,True
+stocks,33,quantum complete+full,746,746,True
+stocks,33,quantum complete+full,417,417,True
+stocks,33,quantum complete+full,1289,1289,True
+stocks,33,quantum complete+full,98,98,True
+stocks,33,quantum complete+full,492,492,True
+stocks,33,quantum complete+full,212,212,True
+stocks,33,quantum complete+full,233,233,True
+stocks,33,quantum complete+full,160,160,True
+stocks,33,quantum complete+full,50,50,True
+stocks,33,quantum complete+full,725,725,True
+stocks,33,quantum complete+full,1049,1049,True
+stocks,33,quantum complete+full,71,71,True
+stocks,33,quantum complete+full,1224,1224,True
+stocks,33,quantum complete+full,1672,1672,True
+stocks,33,quantum complete+full,3743,3743,True
+stocks,33,quantum complete+full,508,508,True
+stocks,33,quantum complete+full,3414,3414,True
+stocks,33,parallel tempering,1802,1802,True
+stocks,33,parallel tempering,857,857,True
+stocks,33,parallel tempering,722,722,True
+stocks,33,parallel tempering,325,325,True
+stocks,33,parallel tempering,2026,2026,True
+stocks,33,parallel tempering,143,143,True
+stocks,33,parallel tempering,1262,1262,True
+stocks,33,parallel tempering,7629,7629,True
+stocks,33,parallel tempering,896,896,True
+stocks,33,parallel tempering,3850,3850,True
+stocks,33,parallel tempering,1630,1630,True
+stocks,33,parallel tempering,4358,4358,True
+stocks,33,parallel tempering,6915,6915,True
+stocks,33,parallel tempering,1813,1813,True
+stocks,33,parallel tempering,313,313,True
+stocks,33,parallel tempering,2842,2842,True
+stocks,33,parallel tempering,2558,2558,True
+stocks,33,parallel tempering,2642,2642,True
+stocks,33,parallel tempering,3653,3653,True
+stocks,33,parallel tempering,2266,2266,True
+stocks,33,parallel tempering,309,309,True
+stocks,33,parallel tempering,1285,1285,True
+stocks,33,parallel tempering,1817,1817,True
+stocks,33,parallel tempering,1715,1715,True
+stocks,41,single swap,764,764,True
+stocks,41,single swap,114,114,True
+stocks,41,single swap,1122,1122,True
+stocks,41,single swap,1537,1537,True
+stocks,41,single swap,597,597,True
+stocks,41,single swap,732,732,True
+stocks,41,single swap,451,451,True
+stocks,41,single swap,1426,1426,True
+stocks,41,single swap,261,261,True
+stocks,41,single swap,24,24,True
+stocks,41,single swap,662,662,True
+stocks,41,single swap,535,535,True
+stocks,41,single swap,29,29,True
+stocks,41,single swap,234,234,True
+stocks,41,single swap,644,644,True
+stocks,41,single swap,2762,2762,True
+stocks,41,single swap,359,359,True
+stocks,41,single swap,453,453,True
+stocks,41,single swap,161,161,True
+stocks,41,single swap,999,999,True
+stocks,41,single swap,703,703,True
+stocks,41,single swap,1330,1330,True
+stocks,41,single swap,1307,1307,True
+stocks,41,single swap,70,70,True
+stocks,41,multi-swap,2966,2966,True
+stocks,41,multi-swap,252,252,True
+stocks,41,multi-swap,326,326,True
+stocks,41,multi-swap,231,231,True
+stocks,41,multi-swap,515,515,True
+stocks,41,multi-swap,2132,2132,True
+stocks,41,multi-swap,451,451,True
+stocks,41,multi-swap,783,783,True
+stocks,41,multi-swap,1396,1396,True
+stocks,41,multi-swap,3293,3293,True
+stocks,41,multi-swap,1784,1784,True
+stocks,41,multi-swap,2979,2979,True
+stocks,41,multi-swap,464,464,True
+stocks,41,multi-swap,156,156,True
+stocks,41,multi-swap,1633,1633,True
+stocks,41,multi-swap,1941,1941,True
+stocks,41,multi-swap,1288,1288,True
+stocks,41,multi-swap,833,833,True
+stocks,41,multi-swap,622,622,True
+stocks,41,multi-swap,150,150,True
+stocks,41,multi-swap,1927,1927,True
+stocks,41,multi-swap,1469,1469,True
+stocks,41,multi-swap,81,81,True
+stocks,41,multi-swap,56,56,True
+stocks,41,locally balanced,214,11984,True
+stocks,41,locally balanced,52,2912,True
+stocks,41,locally balanced,56,3136,True
+stocks,41,locally balanced,15,840,True
+stocks,41,locally balanced,16,896,True
+stocks,41,locally balanced,60,3360,True
+stocks,41,locally balanced,106,5936,True
+stocks,41,locally balanced,64,3584,True
+stocks,41,locally balanced,331,18536,True
+stocks,41,locally balanced,77,4312,True
+stocks,41,locally balanced,13,728,True
+stocks,41,locally balanced,228,12768,True
+stocks,41,locally balanced,147,8232,True
+stocks,41,locally balanced,111,6216,True
+stocks,41,locally balanced,33,1848,True
+stocks,41,locally balanced,20,1120,True
+stocks,41,locally balanced,85,4760,True
+stocks,41,locally balanced,565,31640,True
+stocks,41,locally balanced,212,11872,True
+stocks,41,locally balanced,73,4088,True
+stocks,41,locally balanced,18,1008,True
+stocks,41,locally balanced,211,11816,True
+stocks,41,locally balanced,151,8456,True
+stocks,41,locally balanced,69,3864,True
+stocks,41,quantum complete+full,231,231,True
+stocks,41,quantum complete+full,659,659,True
+stocks,41,quantum complete+full,293,293,True
+stocks,41,quantum complete+full,929,929,True
+stocks,41,quantum complete+full,923,923,True
+stocks,41,quantum complete+full,1276,1276,True
+stocks,41,quantum complete+full,2377,2377,True
+stocks,41,quantum complete+full,2089,2089,True
+stocks,41,quantum complete+full,918,918,True
+stocks,41,quantum complete+full,1237,1237,True
+stocks,41,quantum complete+full,1296,1296,True
+stocks,41,quantum complete+full,705,705,True
+stocks,41,quantum complete+full,1337,1337,True
+stocks,41,quantum complete+full,642,642,True
+stocks,41,quantum complete+full,1767,1767,True
+stocks,41,quantum complete+full,206,206,True
+stocks,41,quantum complete+full,459,459,True
+stocks,41,quantum complete+full,305,305,True
+stocks,41,quantum complete+full,1255,1255,True
+stocks,41,quantum complete+full,791,791,True
+stocks,41,quantum complete+full,1137,1137,True
+stocks,41,quantum complete+full,318,318,True
+stocks,41,quantum complete+full,428,428,True
+stocks,41,quantum complete+full,369,369,True
+stocks,41,parallel tempering,2578,2578,True
+stocks,41,parallel tempering,518,518,True
+stocks,41,parallel tempering,153,153,True
+stocks,41,parallel tempering,521,521,True
+stocks,41,parallel tempering,415,415,True
+stocks,41,parallel tempering,55,55,True
+stocks,41,parallel tempering,1280,1280,True
+stocks,41,parallel tempering,1997,1997,True
+stocks,41,parallel tempering,457,457,True
+stocks,41,parallel tempering,1363,1363,True
+stocks,41,parallel tempering,446,446,True
+stocks,41,parallel tempering,1125,1125,True
+stocks,41,parallel tempering,2265,2265,True
+stocks,41,parallel tempering,1660,1660,True
+stocks,41,parallel tempering,1165,1165,True
+stocks,41,parallel tempering,83,83,True
+stocks,41,parallel tempering,85,85,True
+stocks,41,parallel tempering,1089,1089,True
+stocks,41,parallel tempering,693,693,True
+stocks,41,parallel tempering,981,981,True
+stocks,41,parallel tempering,1833,1833,True
+stocks,41,parallel tempering,2411,2411,True
+stocks,41,parallel tempering,945,945,True
+stocks,41,parallel tempering,2497,2497,True
+stocks,49,single swap,955,955,True
+stocks,49,single swap,1122,1122,True
+stocks,49,single swap,86,86,True
+stocks,49,single swap,101,101,True
+stocks,49,single swap,3354,3354,True
+stocks,49,single swap,230,230,True
+stocks,49,single swap,3412,3412,True
+stocks,49,single swap,549,549,True
+stocks,49,single swap,294,294,True
+stocks,49,single swap,2298,2298,True
+stocks,49,single swap,3562,3562,True
+stocks,49,single swap,246,246,True
+stocks,49,single swap,586,586,True
+stocks,49,single swap,339,339,True
+stocks,49,single swap,430,430,True
+stocks,49,single swap,113,113,True
+stocks,49,single swap,1020,1020,True
+stocks,49,single swap,820,820,True
+stocks,49,single swap,2330,2330,True
+stocks,49,single swap,1614,1614,True
+stocks,49,single swap,124,124,True
+stocks,49,single swap,342,342,True
+stocks,49,single swap,1089,1089,True
+stocks,49,single swap,59,59,True
+stocks,49,multi-swap,1797,1797,True
+stocks,49,multi-swap,6565,6565,True
+stocks,49,multi-swap,1869,1869,True
+stocks,49,multi-swap,1287,1287,True
+stocks,49,multi-swap,2551,2551,True
+stocks,49,multi-swap,9648,9648,True
+stocks,49,multi-swap,2707,2707,True
+stocks,49,multi-swap,1630,1630,True
+stocks,49,multi-swap,723,723,True
+stocks,49,multi-swap,2357,2357,True
+stocks,49,multi-swap,3436,3436,True
+stocks,49,multi-swap,141,141,True
+stocks,49,multi-swap,2941,2941,True
+stocks,49,multi-swap,2551,2551,True
+stocks,49,multi-swap,2362,2362,True
+stocks,49,multi-swap,721,721,True
+stocks,49,multi-swap,1044,1044,True
+stocks,49,multi-swap,3465,3465,True
+stocks,49,multi-swap,704,704,True
+stocks,49,multi-swap,852,852,True
+stocks,49,multi-swap,4092,4092,True
+stocks,49,multi-swap,1368,1368,True
+stocks,49,multi-swap,416,416,True
+stocks,49,multi-swap,830,830,True
+stocks,49,locally balanced,26,1456,True
+stocks,49,locally balanced,10,560,True
+stocks,49,locally balanced,38,2128,True
+stocks,49,locally balanced,72,4032,True
+stocks,49,locally balanced,89,4984,True
+stocks,49,locally balanced,107,5992,True
+stocks,49,locally balanced,61,3416,True
+stocks,49,locally balanced,18,1008,True
+stocks,49,locally balanced,35,1960,True
+stocks,49,locally balanced,219,12264,True
+stocks,49,locally balanced,250,14000,True
+stocks,49,locally balanced,46,2576,True
+stocks,49,locally balanced,7,392,True
+stocks,49,locally balanced,91,5096,True
+stocks,49,locally balanced,176,9856,True
+stocks,49,locally balanced,86,4816,True
+stocks,49,locally balanced,85,4760,True
+stocks,49,locally balanced,30,1680,True
+stocks,49,locally balanced,484,27104,True
+stocks,49,locally balanced,243,13608,True
+stocks,49,locally balanced,79,4424,True
+stocks,49,locally balanced,134,7504,True
+stocks,49,locally balanced,364,20384,True
+stocks,49,locally balanced,162,9072,True
+stocks,49,quantum complete+full,227,227,True
+stocks,49,quantum complete+full,772,772,True
+stocks,49,quantum complete+full,1647,1647,True
+stocks,49,quantum complete+full,2992,2992,True
+stocks,49,quantum complete+full,2215,2215,True
+stocks,49,quantum complete+full,824,824,True
+stocks,49,quantum complete+full,864,864,True
+stocks,49,quantum complete+full,1900,1900,True
+stocks,49,quantum complete+full,439,439,True
+stocks,49,quantum complete+full,1249,1249,True
+stocks,49,quantum complete+full,4869,4869,True
+stocks,49,quantum complete+full,370,370,True
+stocks,49,quantum complete+full,406,406,True
+stocks,49,quantum complete+full,1319,1319,True
+stocks,49,quantum complete+full,131,131,True
+stocks,49,quantum complete+full,1249,1249,True
+stocks,49,quantum complete+full,170,170,True
+stocks,49,quantum complete+full,868,868,True
+stocks,49,quantum complete+full,1969,1969,True
+stocks,49,quantum complete+full,1370,1370,True
+stocks,49,quantum complete+full,3489,3489,True
+stocks,49,quantum complete+full,360,360,True
+stocks,49,quantum complete+full,902,902,True
+stocks,49,quantum complete+full,2394,2394,True
+stocks,49,parallel tempering,5194,5194,True
+stocks,49,parallel tempering,82,82,True
+stocks,49,parallel tempering,1626,1626,True
+stocks,49,parallel tempering,901,901,True
+stocks,49,parallel tempering,2700,2700,True
+stocks,49,parallel tempering,1225,1225,True
+stocks,49,parallel tempering,1593,1593,True
+stocks,49,parallel tempering,871,871,True
+stocks,49,parallel tempering,1617,1617,True
+stocks,49,parallel tempering,3031,3031,True
+stocks,49,parallel tempering,2157,2157,True
+stocks,49,parallel tempering,405,405,True
+stocks,49,parallel tempering,114,114,True
+stocks,49,parallel tempering,1426,1426,True
+stocks,49,parallel tempering,581,581,True
+stocks,49,parallel tempering,813,813,True
+stocks,49,parallel tempering,2169,2169,True
+stocks,49,parallel tempering,7685,7685,True
+stocks,49,parallel tempering,1318,1318,True
+stocks,49,parallel tempering,3397,3397,True
+stocks,49,parallel tempering,913,913,True
+stocks,49,parallel tempering,3681,3681,True
+stocks,49,parallel tempering,22,22,True
+stocks,49,parallel tempering,209,209,True
+stocks,57,single swap,666,666,True
+stocks,57,single swap,117,117,True
+stocks,57,single swap,207,207,True
+stocks,57,single swap,107,107,True
+stocks,57,single swap,221,221,True
+stocks,57,single swap,365,365,True
+stocks,57,single swap,192,192,True
+stocks,57,single swap,189,189,True
+stocks,57,single swap,498,498,True
+stocks,57,single swap,809,809,True
+stocks,57,single swap,198,198,True
+stocks,57,single swap,187,187,True
+stocks,57,single swap,191,191,True
+stocks,57,single swap,191,191,True
+stocks,57,single swap,405,405,True
+stocks,57,single swap,494,494,True
+stocks,57,single swap,349,349,True
+stocks,57,single swap,513,513,True
+stocks,57,single swap,285,285,True
+stocks,57,single swap,88,88,True
+stocks,57,single swap,351,351,True
+stocks,57,single swap,530,530,True
+stocks,57,single swap,132,132,True
+stocks,57,single swap,212,212,True
+stocks,57,multi-swap,1338,1338,True
+stocks,57,multi-swap,2792,2792,True
+stocks,57,multi-swap,163,163,True
+stocks,57,multi-swap,458,458,True
+stocks,57,multi-swap,432,432,True
+stocks,57,multi-swap,262,262,True
+stocks,57,multi-swap,2078,2078,True
+stocks,57,multi-swap,3548,3548,True
+stocks,57,multi-swap,4123,4123,True
+stocks,57,multi-swap,2304,2304,True
+stocks,57,multi-swap,1434,1434,True
+stocks,57,multi-swap,1207,1207,True
+stocks,57,multi-swap,2049,2049,True
+stocks,57,multi-swap,211,211,True
+stocks,57,multi-swap,2241,2241,True
+stocks,57,multi-swap,778,778,True
+stocks,57,multi-swap,166,166,True
+stocks,57,multi-swap,1653,1653,True
+stocks,57,multi-swap,100,100,True
+stocks,57,multi-swap,318,318,True
+stocks,57,multi-swap,205,205,True
+stocks,57,multi-swap,1747,1747,True
+stocks,57,multi-swap,150,150,True
+stocks,57,multi-swap,856,856,True
+stocks,57,locally balanced,5,280,True
+stocks,57,locally balanced,40,2240,True
+stocks,57,locally balanced,87,4872,True
+stocks,57,locally balanced,74,4144,True
+stocks,57,locally balanced,43,2408,True
+stocks,57,locally balanced,70,3920,True
+stocks,57,locally balanced,124,6944,True
+stocks,57,locally balanced,58,3248,True
+stocks,57,locally balanced,11,616,True
+stocks,57,locally balanced,43,2408,True
+stocks,57,locally balanced,95,5320,True
+stocks,57,locally balanced,81,4536,True
+stocks,57,locally balanced,63,3528,True
+stocks,57,locally balanced,18,1008,True
+stocks,57,locally balanced,25,1400,True
+stocks,57,locally balanced,28,1568,True
+stocks,57,locally balanced,24,1344,True
+stocks,57,locally balanced,23,1288,True
+stocks,57,locally balanced,16,896,True
+stocks,57,locally balanced,24,1344,True
+stocks,57,locally balanced,68,3808,True
+stocks,57,locally balanced,169,9464,True
+stocks,57,locally balanced,24,1344,True
+stocks,57,locally balanced,17,952,True
+stocks,57,quantum complete+full,1137,1137,True
+stocks,57,quantum complete+full,817,817,True
+stocks,57,quantum complete+full,2500,2500,True
+stocks,57,quantum complete+full,854,854,True
+stocks,57,quantum complete+full,964,964,True
+stocks,57,quantum complete+full,1252,1252,True
+stocks,57,quantum complete+full,923,923,True
+stocks,57,quantum complete+full,851,851,True
+stocks,57,quantum complete+full,260,260,True
+stocks,57,quantum complete+full,372,372,True
+stocks,57,quantum complete+full,86,86,True
+stocks,57,quantum complete+full,405,405,True
+stocks,57,quantum complete+full,219,219,True
+stocks,57,quantum complete+full,1036,1036,True
+stocks,57,quantum complete+full,1176,1176,True
+stocks,57,quantum complete+full,389,389,True
+stocks,57,quantum complete+full,1053,1053,True
+stocks,57,quantum complete+full,249,249,True
+stocks,57,quantum complete+full,691,691,True
+stocks,57,quantum complete+full,89,89,True
+stocks,57,quantum complete+full,3279,3279,True
+stocks,57,quantum complete+full,497,497,True
+stocks,57,quantum complete+full,789,789,True
+stocks,57,quantum complete+full,893,893,True
+stocks,57,parallel tempering,440,440,True
+stocks,57,parallel tempering,421,421,True
+stocks,57,parallel tempering,69,69,True
+stocks,57,parallel tempering,898,898,True
+stocks,57,parallel tempering,1940,1940,True
+stocks,57,parallel tempering,681,681,True
+stocks,57,parallel tempering,1090,1090,True
+stocks,57,parallel tempering,2161,2161,True
+stocks,57,parallel tempering,145,145,True
+stocks,57,parallel tempering,438,438,True
+stocks,57,parallel tempering,1610,1610,True
+stocks,57,parallel tempering,970,970,True
+stocks,57,parallel tempering,293,293,True
+stocks,57,parallel tempering,361,361,True
+stocks,57,parallel tempering,3683,3683,True
+stocks,57,parallel tempering,1001,1001,True
+stocks,57,parallel tempering,468,468,True
+stocks,57,parallel tempering,1113,1113,True
+stocks,57,parallel tempering,1249,1249,True
+stocks,57,parallel tempering,350,350,True
+stocks,57,parallel tempering,1326,1326,True
+stocks,57,parallel tempering,173,173,True
+stocks,57,parallel tempering,1300,1300,True
+stocks,57,parallel tempering,1048,1048,True

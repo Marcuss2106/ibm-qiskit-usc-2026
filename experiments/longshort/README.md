@@ -93,3 +93,47 @@ than multi-swap on ETFs.
 - The quantum side was tuned over 12 settings per window, multi-swap over 4.
 - Not yet tested: parallel tempering (recommended baseline in
   `docs/research/rugged-landscapes.md`), 8 long / 8 short, cost per shot or second.
+
+## Confirmation (bead kaa, 2026-11-15)
+
+**1. Hardware cost** (`compile_depth.py`, FakeFez / FakeTorino, optimization level 3).
+Two-qubit gates at 11 qubits (6 / 6): ring mixer + linear phase 56–83; ordered ring +
+ring phase 87; ring + full phase 237–241; **complete mixer + full phase 541–569** (about
+1,100 at 15 qubits). The winning circuit is far too deep for current hardware.
+
+**2. Equal tuning** (`fair_tuning.py`): one setting per method, chosen on 32 even
+windows, tested fixed on 32 odd windows (gap vs single swap, median):
+
+| Method | ETFs | Beats multi-swap | Stocks | Beats multi-swap |
+|---|---|---|---|---|
+| Complete + full phase (β 0.3, g 3) | 2.67 | **81%** | 1.93 | **91%** |
+| Multi-swap (m = 5 / 4) | 2.22 | — | 1.21 | — |
+| Locally balanced | 3.42 | 91% | 6.01 | 97% |
+| Ordered ring + ring phase (hardware) | 1.80 | 22% | 0.93 | 16% |
+| Ring + linear phase (hardware target) | 1.42 | 3% | 0.55 | 3% |
+
+The mixing advantage over multi-swap survives fair tuning; hardware-cheap circuits lose it.
+
+**3. Direct race** (`race.py`): attempts to first reach S* from matched random starts,
+settings fixed from (2), T = 0.1 × std(S); parallel tempering with 4 replicas
+(T to 10T) and swap moves, budget summed over replicas.
+
+| Median attempts (score evaluations) | ETFs 6 / 6 | Stocks 6 / 6 | ETFs 8 / 8 | Stocks 8 / 8 |
+|---|---|---|---|---|
+| Locally balanced | 38 (1,140) | 12 (360) | 162 (9,072) | 66 (3,668) |
+| **Single swap** | **179** | **100** | **1,093** | **452** |
+| Quantum, complete + full | 184 | 125 | 1,264 | 890 |
+| Parallel tempering | 199 | 139 | 1,405 | 887 |
+| Multi-swap | 215 | 188 | 2,175 | 1,214 |
+
+(6 / 6: 32 test windows × 40 starts; 8 / 8: 8 test windows × 24 starts; ≥ 99% solved.)
+
+**Verdict: claim narrowed.** On the rugged long–short book the complete-mixer quantum
+proposal **mixes** faster than tuned multi-swap (spectral gap, held-out windows), and the
+gain comes from the score phase. It does **not** find the optimum faster: plain
+single-swap Metropolis reaches S* in the fewest attempts and score evaluations of all
+one-evaluation methods, at both sizes; the quantum proposal is 1.2–2× slower. Mixing
+(how fast a chain samples the whole distribution) and hitting the optimum are different
+goals; downhill-biased local moves at low T are efficient hitters even on this landscape.
+The settings were tuned for mixing, not hitting, and T was fixed; neither was re-tuned.
+The gap repeat at 8 / 8 on more windows (item 1 of the bead) was not run.
