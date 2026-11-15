@@ -1,6 +1,6 @@
 # Presentation (manim)
 
-Five-minute talk, seven animated slides plus a backup. Script: `narration.md`.
+Five-minute talk, eight animated slides plus a backup. Script: `narration.md`.
 
 ## Setup (once)
 
@@ -24,7 +24,7 @@ removed `write_to_movie` config option).
 cd presentation
 .venv/bin/manim -pql slides.py FullTalk        # quick 480p preview of the whole talk
 .venv/bin/manim -qh  slides.py FullTalk        # 1080p
-.venv/bin/manim -pql slides.py Slide5Morph     # one slide
+.venv/bin/manim -pql slides.py Slide5Book      # one slide
 ```
 
 ## Slideshow (click to advance)
@@ -38,16 +38,17 @@ cd presentation
 
 In the presenter window: right arrow / space = next, left arrow = previous, F =
 fullscreen, Q = quit. `talk.html` opens in any browser and needs no install (arrow keys,
-F for fullscreen). `FullTalkSlides` has 15 slide steps: the seven slides with pauses at
-each reveal, then the backup slide for Q&A. Every `beat()` in `slides.py` is a timed
+F for fullscreen). `FullTalkSlides` pauses at each reveal across the eight slides, then shows the
+backup slide for Q&A. Every `beat()` in `slides.py` is a timed
 pause in the video and a click in the slideshow.
 
 ## Scenes
 
-Scenes: `Slide1Title`, `Slide2Search`, `Slide3Surprise`, `Slide4MaxCut`,
-`Slide5Morph`, `Slide6Results`, `Slide7Takeaways`, `Backup`, `FullTalk` (all seven).
+Scenes: `Slide1Title`, `Slide2Search`, `Slide3Hill`, `Slide4MaxCut`, `Slide5Book`,
+`Slide6Quantum`, `Slide7Learned`, `Slide8Close`, `Backup`, `FullTalk` (all eight, timed video),
+`FullTalkSlides` (slideshow, eight slides plus backup).
 Output goes to `presentation/media/` (git-ignored).
 
-Landscapes on slides 1, 3 and 7 are illustrative curves; the correlation heat map, the
-long–short graph (edge = real correlation, final colouring = the real optimal book from
-the hardware run) and all numbers are real.
+Landscapes on slides 1, 3 and 8 and the max-cut graph on slide 4 are illustrative; the
+correlation heat map, the long–short graph (edge weights = real correlations, final split =
+the real optimal book from the hardware run) and all numbers are real.
