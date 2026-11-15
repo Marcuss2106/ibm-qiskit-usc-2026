@@ -23,6 +23,11 @@ from manim import (
     interpolate_color, ManimColor,
 )
 
+try:  # optional: clickable slideshow via manim-slides
+    from manim_slides import Slide
+except ImportError:  # video-only rendering still works without it
+    Slide = None
+
 DATA = json.loads((Path(__file__).with_name("data.json")).read_text())
 NUM = DATA["numbers"]
 
@@ -96,6 +101,13 @@ def clear(scene):
 
 # ---------------------------------------------------------------- slides
 class Talk(Scene):
+    def beat(self, seconds: float):
+        """Hold point: timed wait in the video, click-to-advance in the slideshow."""
+        if Slide is not None and isinstance(self, Slide):
+            self.next_slide()
+        else:
+            self.wait(seconds)
+
     # ---------------------------------------------- 1. title and question (0:00-0:30)
     def slide1(self):
         title = fit(T("Where Can Quantum Search Help in Finance?", 48, FG, "BOLD"), 12.5)
@@ -104,7 +116,7 @@ class Talk(Scene):
         VGroup(title, sub, team).arrange(DOWN, buff=0.35)
         self.play(Write(title), run_time=1.5)
         self.play(FadeIn(sub, shift=UP * 0.2), FadeIn(team, shift=UP * 0.2))
-        self.wait(3)
+        self.beat(3)
         self.play(VGroup(title, sub, team).animate.scale(0.6).to_edge(UP, buff=0.3))
 
         curve = landscape(hill, color=MUTED).shift(DOWN * 0.6)
@@ -125,7 +137,7 @@ class Talk(Scene):
         ).arrange(DOWN, aligned_edge=LEFT).to_corner(UR).shift(DOWN * 1.6)
         q = T("Can a quantum circuit propose smarter moves?", 34, FG, "BOLD").to_edge(DOWN, buff=0.5)
         self.play(FadeIn(legend), Write(q))
-        self.wait(14)
+        self.beat(14)
         clear(self)
 
     # ---------------------------------------------- 2. how the search works (0:30-1:20)
@@ -157,7 +169,7 @@ class Talk(Scene):
         self.play(FadeIn(cl_box))
         self.play(Transform(r, row({0, 1, 3, 6})), run_time=1.0)
         self.play(Indicate(r[3], color=LONG), Indicate(r[4], color=MUTED), run_time=0.8)
-        self.wait(5)
+        self.beat(5)
         self.play(FadeOut(cl_box))
 
         # quantum move: spread, score, recombine
@@ -182,7 +194,7 @@ class Talk(Scene):
         self.play(Indicate(count, color=LONG))
         foot = T("Same search, same answer key. Only the proposal changes.", 26, FG).to_edge(DOWN, buff=0.3)
         self.play(FadeIn(foot))
-        self.wait(23)
+        self.beat(23)
         clear(self)
 
     # ---------------------------------------------- 3. real portfolios are too easy (1:20-2:20)
@@ -204,7 +216,7 @@ class Talk(Scene):
         self.play(Create(right), FadeIn(rl), run_time=1.2)
         stuck = VGroup(*[Dot(right.point_from_proportion(p), color=CLASSICAL) for p in (0.17, 0.41, 0.8)])
         self.play(FadeIn(stuck), FadeIn(rc))
-        self.wait(3)
+        self.beat(3)
 
         # correlation heat map: almost all warm = one market factor
         corr = np.array(DATA["corr"])
@@ -226,7 +238,7 @@ class Talk(Scene):
         self.play(Write(b))
         tag = T("Same with stocks, factor models and hedge books", 22, MUTED).next_to(b, UP, buff=0.15)
         self.play(FadeIn(tag))
-        self.wait(38)
+        self.beat(38)
         clear(self)
 
     # ---------------------------------------------- 4. max-cut and frustration (2:20-3:00)
@@ -254,7 +266,7 @@ class Talk(Scene):
                     anims.append(lines[k].animate.set_color(CUT).set_stroke(width=6))
                     cut_count.increment_value(1)
             self.play(*anims, run_time=0.45)
-        self.wait(1)
+        self.beat(1)
 
         # frustrated triangle on the right
         tp = [RIGHT * 3.4 + UP * 0.9, RIGHT * 2.2 + DOWN * 1.1, RIGHT * 4.6 + DOWN * 1.1]
@@ -273,7 +285,7 @@ class Talk(Scene):
         self.play(Write(frus))
         foot = T("Frustration creates many competing near-best answers", 26, FG).to_edge(DOWN, buff=0.35)
         self.play(FadeIn(foot))
-        self.wait(25)
+        self.beat(25)
         clear(self)
 
     # ---------------------------------------------- 5. long-short book is max-cut (3:00-3:50)
@@ -326,7 +338,7 @@ class Talk(Scene):
                         VGroup(Dot(color=SHORT), T("short", 20, SHORT)).arrange(RIGHT, buff=0.1))\
             .arrange(RIGHT, buff=0.4).next_to(dots, DOWN, buff=0.15)
         self.play(FadeIn(legend))
-        self.wait(2)
+        self.beat(2)
 
         # frustrated triangle: SPY, IWM, EFA all move together
         tri = [tick.index(t) for t in ("SPY", "IWM", "EFA")]
@@ -342,7 +354,7 @@ class Talk(Scene):
         formula = MathTex(r"\text{risk} \propto s^\top \Sigma s = \text{const} + 2\sum_{i<j}\Sigma_{ij}\,s_i s_j",
                           font_size=30, color=MUTED).next_to(note, DOWN, buff=0.45).align_to(note, LEFT)
         self.play(FadeOut(tri_lines), Write(res), FadeIn(formula))
-        self.wait(30)
+        self.beat(30)
         clear(self)
 
     # ---------------------------------------------- 6. results (3:50-4:35)
@@ -367,7 +379,7 @@ class Talk(Scene):
         call = T(f"Beats tuned classical long jumps\nin {NUM['beats_multi_heldout']} of held-out quarters",
                  24, QUANTUM, "BOLD").to_edge(RIGHT, buff=0.5).shift(UP * 2.1)
         self.play(FadeIn(call))
-        self.wait(4)
+        self.beat(4)
 
         # phase-off control
         q = bars[2]
@@ -383,7 +395,7 @@ class Talk(Scene):
         ok = fit(T("Phase off -> advantage disappears:\nthe gain is the quantum score information", 22, GOOD), 5.6)\
             .next_to(call, DOWN, buff=0.35).to_edge(RIGHT, buff=0.5)
         self.play(FadeIn(ok))
-        self.wait(4)
+        self.beat(4)
 
         verdict = VGroup(
             T("✓  Explores good portfolios faster (sampling)", 22, GOOD),
@@ -395,7 +407,7 @@ class Talk(Scene):
         ).arrange(DOWN, aligned_edge=LEFT, buff=0.12).to_edge(DOWN, buff=0.3).to_edge(LEFT, buff=0.6)
         for v in verdict:
             self.play(FadeIn(v, shift=LEFT * 0.2), run_time=0.6)
-        self.wait(25)
+        self.beat(25)
         clear(self)
 
     # ---------------------------------------------- 7. takeaways (4:35-5:00)
@@ -418,7 +430,7 @@ class Talk(Scene):
         close = fit(T("We didn't find a speedup. We found where one could live.", 34, QUANTUM, "BOLD"), 12.6)\
             .to_edge(DOWN, buff=0.4)
         self.play(Write(close), run_time=1.4)
-        self.wait(17)
+        self.beat(17)
         clear(self)
 
     # ---------------------------------------------- backup (not timed)
@@ -438,7 +450,7 @@ class Talk(Scene):
             T(f"{NUM['hw_qpu_seconds']} QPU-seconds", 24, MUTED),
         ).arrange(DOWN, aligned_edge=LEFT, buff=0.18).move_to(RIGHT * 3.3 + UP * 0.2)
         self.play(FadeIn(rows), FadeIn(hw))
-        self.wait(10)
+        self.beat(10)
 
 
 class Slide1Title(Talk):
@@ -485,3 +497,14 @@ class FullTalk(Talk):
     def construct(self):
         for s in (self.slide1, self.slide2, self.slide3, self.slide4, self.slide5, self.slide6, self.slide7):
             s()
+
+
+if Slide is not None:
+
+    class FullTalkSlides(Slide, Talk):
+        """Clickable slideshow: same slides, advances on click/arrow key; backup slide last."""
+
+        def construct(self):
+            for s in (self.slide1, self.slide2, self.slide3, self.slide4, self.slide5, self.slide6,
+                      self.slide7, self.backup):
+                s()

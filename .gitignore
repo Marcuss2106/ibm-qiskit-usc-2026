@@ -235,3 +235,5 @@ data/stock_prices.csv
 presentation/.venv/
 presentation/media/
 presentation/__pycache__/
+presentation/slides/
+presentation/talk.html
