@@ -101,15 +101,70 @@ def metropolis_matrix(Q: np.ndarray, scores: np.ndarray, T: float) -> np.ndarray
     return P
 
 
-def spectral_gap(Q: np.ndarray, scores: np.ndarray, T: float) -> float:
-    """1 - |second-largest eigenvalue| of the Metropolis chain (exact).
+def multiswap_table(space: StateSpace, m: int | None = None) -> np.ndarray:
+    """Global Kawasaki proposal: draw j uniformly from 1..m, then a uniform state
+    exactly j swaps away. Symmetric, since swap distance is symmetric."""
+    from math import comb
 
-    The chain is reversible w.r.t. pi ~ exp(S/T), so D^1/2 P D^-1/2 is symmetric.
+    n, k = space.n, space.k
+    m = min(k, n - k) if m is None else m
+    b = space.bits.astype(np.int32)
+    dist = k - b @ b.T  # number of swaps between portfolios
+    Q = np.zeros(dist.shape)
+    for j in range(1, m + 1):
+        Q[dist == j] = 1.0 / (m * comb(k, j) * comb(n - k, j))
+    return Q
+
+
+def informed_matrix(
+    space: StateSpace, scores: np.ndarray, T: float, balance: str = "sqrt"
+) -> np.ndarray:
+    """Informed single-swap proposal with Metropolis-Hastings correction.
+
+    Propose swap neighbor s' with probability proportional to g(pi(s')/pi(s)),
+    pi ~ exp(S/T). balance="sqrt" is Zanella's locally balanced proposal
+    (g(t) = sqrt(t); JASA 2019, doi 10.1080/01621459.2019.1585255), the strong
+    informed classical baseline. balance="heatbath" (g(t) = t) is shown for
+    contrast: it is not locally balanced and can mix very slowly.
+    Reversible w.r.t. pi. Costs k(n-k) score evaluations per step.
     """
-    P = metropolis_matrix(Q, scores, T)
+    nb = space.swap_neighbors()
+    a = 0.5 if balance == "sqrt" else 1.0 if balance == "heatbath" else None
+    if a is None:
+        raise ValueError("balance must be 'sqrt' or 'heatbath'")
+    w = np.exp(a * (scores - scores.max()) / T)  # g(pi(s')/pi(s)) is w(s')/w(s)
+    Z = w[nb].sum(axis=1)
+    C = space.size
+    P = np.zeros((C, C))
+    rows = np.repeat(np.arange(C), nb.shape[1])
+    cols = nb.ravel()
+    q_fwd = w[cols] / Z[rows]
+    q_rev = w[rows] / Z[cols]
+    log_ratio = (scores[cols] - scores[rows]) / T
+    accept = np.minimum(1.0, np.exp(np.clip(log_ratio, -700, 700)) * q_rev / q_fwd)
+    P[rows, cols] = q_fwd * accept
+    np.fill_diagonal(P, 1.0 - P.sum(axis=1))
+    return P
+
+
+def heatbath_matrix(space: StateSpace, scores: np.ndarray, T: float) -> np.ndarray:
+    """Naive informed proposal (g(t) = t). Kept for contrast; see informed_matrix."""
+    return informed_matrix(space, scores, T, balance="heatbath")
+
+
+def chain_gap(P: np.ndarray, scores: np.ndarray, T: float) -> float:
+    """1 - |second-largest eigenvalue| of a chain reversible w.r.t. pi ~ exp(S/T)."""
     logpi = (scores - scores.max()) / T
     d = np.exp(logpi / 2)
     Ssym = (d[:, None] * P) / d[None, :]
     Ssym = (Ssym + Ssym.T) / 2
     ev = np.sort(np.abs(np.linalg.eigvalsh(Ssym)))[::-1]
     return float(1.0 - ev[1])
+
+
+def spectral_gap(Q: np.ndarray, scores: np.ndarray, T: float) -> float:
+    """1 - |second-largest eigenvalue| of the Metropolis chain (exact).
+
+    The chain is reversible w.r.t. pi ~ exp(S/T), so D^1/2 P D^-1/2 is symmetric.
+    """
+    return chain_gap(metropolis_matrix(Q, scores, T), scores, T)

@@ -7,7 +7,10 @@ from qemcmc.circuits import proposal_circuit, proposal_table, score_terms
 from qemcmc.objective import enumerate_scores
 from qemcmc.states import StateSpace
 from qemcmc.subspace import (
+    heatbath_matrix,
+    informed_matrix,
     metropolis_matrix,
+    multiswap_table,
     proposal_table_fast,
     spectral_gap,
     swap_table,
@@ -55,3 +58,35 @@ def test_spectral_gap_against_dense_eig():
     Q = swap_table(s)
     ev = np.sort(np.abs(np.linalg.eigvals(metropolis_matrix(Q, S, T))))[::-1]
     assert spectral_gap(Q, S, T) == pytest.approx(1 - ev[1], abs=1e-9)
+
+
+def test_multiswap_symmetric_and_stochastic():
+    s = StateSpace(8, 3)
+    Q = multiswap_table(s)
+    assert np.allclose(Q, Q.T) and np.allclose(Q.sum(1), 1)
+    assert np.allclose(np.diag(Q), 0)
+    # one-swap shell carries 1/m of the mass
+    assert np.isclose(Q[0, s.swap_neighbors()[0]].sum(), 1 / 3)
+
+
+@pytest.mark.parametrize("balance", ["sqrt", "heatbath"])
+def test_informed_reversible(balance):
+    n, k, T = 8, 3, 0.02
+    s = StateSpace(n, k)
+    mu, sigma = random_problem(n, 8)
+    S = enumerate_scores(s, mu, sigma, 3.0)
+    P = informed_matrix(s, S, T, balance)
+    assert np.allclose(P.sum(1), 1) and (P >= -1e-15).all()
+    pi = np.exp((S - S.max()) / T)
+    flow = pi[:, None] * P
+    assert np.allclose(flow, flow.T, atol=1e-14)
+
+
+def test_locally_balanced_beats_naive_heatbath():
+    from qemcmc.subspace import chain_gap
+
+    n, k, T = 8, 3, 0.01
+    s = StateSpace(n, k)
+    mu, sigma = random_problem(n, 9)
+    S = enumerate_scores(s, mu, sigma, 3.0)
+    assert chain_gap(informed_matrix(s, S, T, "sqrt"), S, T) > chain_gap(heatbath_matrix(s, S, T), S, T)
