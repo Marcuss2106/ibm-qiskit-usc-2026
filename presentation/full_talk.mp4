@@ -1,0 +1,378 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Manim Slides</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/reveal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/theme/black.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <!-- <link rel="stylesheet" href="lib/css/zenburn.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/plugin/highlight/zenburn.css">
+    <!-- <link rel="stylesheet" href="index.css"> -->
+  </head>
+
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section
+          data-background-size='contain'
+          data-background-color="#0f1117"
+          data-background-video="full_talk_assets/9444641597c9e766.mp4"
+          data-background-video-muted
+          >
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#0f1117"
+          data-background-video="full_talk_assets/7f200c88f30f65cd.mp4"
+          >
+            <aside class="notes" data-markdown>Open exactly: 'In five minutes you'll know where a quantum move actually beats classical moves on a real finance problem, and where it doesn't.'</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#0f1117"
+          data-background-video="full_talk_assets/fb316796bc96568a.mp4"
+          >
+            <aside class="notes" data-markdown>We kept sizes small so every claim is measured against the true answer, not estimated.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#0f1117"
+          data-background-video="full_talk_assets/e989b70d5ae4a538.mp4"
+          >
+            <aside class="notes" data-markdown>MCMC in one sentence: propose, accept or reject, repeat. The proposal move is the only thing we change, so any difference comes from the move.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#0f1117"
+          data-background-video="full_talk_assets/d37304f42e078947.mp4"
+          >
+            <aside class="notes" data-markdown>Real ETF data, one quarter (ending 2022-06-30). One broad peak: plain uphill steps reach the best portfolio from every start.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#0f1117"
+          data-background-video="full_talk_assets/b25a760886a5327c.mp4"
+          >
+            <aside class="notes" data-markdown>Surprise: the famous problem is too easy. The market moves everything together, so there's one answer. Flip to long-short and the same market creates many competing answers. Rugged landscapes are where a smarter move can matter.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#0f1117"
+          data-background-video="full_talk_assets/d08c64536dca670f.mp4"
+          >
+            <aside class="notes" data-markdown>We tried four real problems. Only the long-short book is rugged: in a typical quarter about 13 good-but-different books, and greedy picks the wrong one about 4 times in 5.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#0f1117"
+          data-background-video="full_talk_assets/66a28a54d38f097a.mp4"
+          >
+            <aside class="notes" data-markdown>This line scores 8. Move it and you get 15.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#0f1117"
+          data-background-video="full_talk_assets/777a1fa36134c3dc.mp4"
+          >
+            <aside class="notes" data-markdown>However you draw the line through a triangle, one edge stays uncut. Pile up triangles and you get many good answers that look nothing alike.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#0f1117"
+          data-background-video="full_talk_assets/d0e72680c66c4798.mp4"
+          >
+            <aside class="notes" data-markdown>Each ETF is a node; the number on an edge is the real correlation. Going long or short is just which side of the line you're on.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#0f1117"
+          data-background-video="full_talk_assets/30465759a44dbac9.mp4"
+          >
+            <aside class="notes" data-markdown>This split is the real best book for the last quarter of 2025. Cutting heavy edges puts look-alike assets on opposite sides, which is exactly what lowers risk.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#0f1117"
+          data-background-video="full_talk_assets/5231a51b97e5516a.mp4"
+          >
+            <aside class="notes" data-markdown>Mix, score phase, mix in reverse. The mixer only swaps a long for a short, so the count is fixed. The phase is where the score steers the jump.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#0f1117"
+          data-background-video="full_talk_assets/281e19fc41909aa9.mp4"
+          >
+            <aside class="notes" data-markdown>Left: one swap can only reach the 12 neighbours of each book. Right: the quantum move reaches far-off books, and how likely each jump is depends on the scores.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#0f1117"
+          data-background-video="full_talk_assets/9c3b9575aacb08af.mp4"
+          >
+            <aside class="notes" data-markdown>Main message. The quantum move explores about 2.7 times faster than one swap, ahead of the best-tuned classical long jump.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#0f1117"
+          data-background-video="full_talk_assets/b8f241446273c6da.mp4"
+          >
+            <aside class="notes" data-markdown>The control: same circuit, score phase off. It falls back behind the classical move. That's how we know the score phase does the work.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#0f1117"
+          data-background-video="full_talk_assets/f06c1f1b3342bf32.mp4"
+          >
+            <aside class="notes" data-markdown>Each square is one quarter we held back from tuning. Green wins: 81% of ETF quarters and 91% of stock quarters. Say the slogan: Rugged problems, quantum moves.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#0f1117"
+          data-background-video="full_talk_assets/61833d3975c22800.mp4"
+          >
+            <aside class="notes" data-markdown>State the limits plainly; it protects the claim. Sampling, yes. Finding the single best book faster, no. Hardware today, no: the winning circuit is about 540 two-qubit gates, and our cheap version on ibm_marrakesh mixed slower than one swap.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#0f1117"
+          data-background-video="full_talk_assets/ed19eab11a3931eb.mp4"
+          >
+            <aside class="notes" data-markdown>Restate the slogan, then a one-line salute to the audience. No 'Thank you / Questions?' - leave this slide up for Q&A.</aside>
+        </section>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/reveal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/plugin/notes.js"></script>
+
+    <!-- To include plugins, see: https://revealjs.com/plugins/ -->
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/plugin/markdown.js"></script>
+
+    <!-- <script src="index.js"></script> -->
+    <script>
+      Reveal.initialize({
+        /// The list of RevealJS plugins.
+        plugins: [ RevealMarkdown, RevealNotes ],
+        // The "normal" size of the presentation, aspect ratio will
+        // be preserved when the presentation is scaled to fit different
+        // resolutions. Can be specified using percentage units.
+        width: '100%',
+        height: '100%',
+        // Factor of the display size that should remain empty around
+        // the content
+        margin: 0.04,
+        // Bounds for smallest/largest possible scale to apply to content
+        minScale: 0.2,
+        maxScale: 2.0,
+        // Display presentation control arrows
+        controls: false,
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+        // Display a presentation progress bar
+        progress: false,
+        // Display the page number of the current slide
+        // - true:    Show slide number
+        // - false:   Hide slide number
+        //
+        // Can optionally be set as a string that specifies the number formatting:
+        // - "h.v":   Horizontal . vertical slide number (default)
+        // - "h/v":   Horizontal / vertical slide number
+        // - "c":   Flattened slide number
+        // - "c/t":   Flattened slide number / total slides
+        //
+        // Alternatively, you can provide a function that returns the slide
+        // number for the current slide. The function should take in a slide
+        // object and return an array with one string [slideNumber] or
+        // three strings [n1,delimiter,n2]. See #formatSlideNumber().
+        slideNumber: false,
+        // Can be used to limit the contexts in which the slide number appears
+        // - "all":      Always show the slide number
+        // - "print":    Only when printing to PDF
+        // - "speaker":  Only in the speaker view
+        showSlideNumber: 'all',
+        // Use 1 based indexing for # links to match slide number (default is zero
+        // based)
+        hashOneBasedIndex: false,
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: false,
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: false,
+        // Enable support for jump-to-slide navigation shortcuts
+        jumpToSlide: true,
+        // Push each slide change to the browser history.  Implies `hash: true`
+        history: false,
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+        // Optional function that blocks keyboard events when retuning false
+        //
+        // If you set this to 'focused', we will only capture keyboard events
+        // for embedded decks when they are in focus
+        keyboardCondition: null,
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+        // Enable the slide overview mode
+        overview: true,
+        // Vertical centering of slides
+        center: true,
+        // Enables touch navigation on devices with touch input
+        touch: true,
+        // Loop the presentation
+        loop: false,
+        // Change the presentation direction to be RTL
+        rtl: false,
+        // Changes the behavior of our navigation directions.
+        //
+        // "default"
+        // Left/right arrow keys step between horizontal slides, up/down
+        // arrow keys step between vertical slides. Space key steps through
+        // all slides (both horizontal and vertical).
+        //
+        // "linear"
+        // Removes the up/down arrows. Left/right arrows step through all
+        // slides (both horizontal and vertical).
+        //
+        // "grid"
+        // When this is enabled, stepping left/right from a vertical stack
+        // to an adjacent vertical stack will land you at the same vertical
+        // index.
+        //
+        // Consider a deck with six slides ordered in two vertical stacks:
+        // 1.1    2.1
+        // 1.2    2.2
+        // 1.3    2.3
+        //
+        // If you're on slide 1.3 and navigate right, you will normally move
+        // from 1.3 -> 2.1. If "grid" is used, the same navigation takes you
+        // from 1.3 -> 2.3.
+        navigationMode: 'default',
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+        // Turns fragments on and off globally
+        fragments: true,
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+        // Flags if we should show a help overlay when the question-mark
+        // key is pressed
+        help: true,
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+        // Global override for autolaying embedded media (video/audio/iframe)
+        // - null:   Media will only autoplay if data-autoplay is present
+        // - true:   All media will autoplay, regardless of individual setting
+        // - false:  No media will autoplay, regardless of individual setting
+        autoPlayMedia: null,
+        // Global override for preloading lazy-loaded iframes
+        // - null:   Iframes with data-src AND data-preload will be loaded when within
+        //           the viewDistance, iframes with only data-src will be loaded when visible
+        // - true:   All iframes with data-src will be loaded when within the viewDistance
+        // - false:  All iframes with data-src will be loaded only when visible
+        preloadIframes: null,
+        // Can be used to globally disable auto-animation
+        autoAnimate: true,
+        // Optionally provide a custom element matcher that will be
+        // used to dictate which elements we can animate between.
+        autoAnimateMatcher: null,
+        // Default settings for our auto-animate transitions, can be
+        // overridden per-slide or per-element via data arguments
+        autoAnimateEasing: 'ease',
+        autoAnimateDuration: 1.0,
+        autoAnimateUnmatched: true,
+        // CSS properties that can be auto-animated. Position & scale
+        // is matched separately so there's no need to include styles
+        // like top/right/bottom/left, width/height or margin.
+        autoAnimateStyles: ['opacity', 'color', 'background-color', 'padding', 'font-size', 'line-height', 'letter-spacing', 'border-width', 'border-color', 'border-radius', 'outline', 'outline-offset'],
+        // Controls automatic progression to the next slide
+        // - 0:      Auto-sliding only happens if the data-autoslide HTML attribute
+        //           is present on the current slide or fragment
+        // - 1+:     All slides will progress automatically at the given interval
+        // - false:  No auto-sliding, even if data-autoslide is present
+        autoSlide: 0,
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+        // Use this method for navigation when auto-sliding (defaults to navigateNext)
+        autoSlideMethod: null,
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+        // Opens links in an iframe preview overlay
+        // Add `data-preview-link` and `data-preview-link="false"` to customize each link
+        // individually
+        previewLinks: false,
+        // Exposes the reveal.js API through window.postMessage
+        postMessage: true,
+        // Dispatches all reveal.js events to the parent window through postMessage
+        postMessageEvents: false,
+        // Focuses body when page changes visibility to ensure keyboard shortcuts work
+        focusBodyOnPageVisibilityChange: true,
+        // Transition style
+        transition: 'none', // none/fade/slide/convex/concave/zoom
+        // Transition speed
+        transitionSpeed: 'default', // default/fast/slow
+        // Transition style for full page slide backgrounds
+        backgroundTransition: 'none', // none/fade/slide/convex/concave/zoom
+        // The maximum number of pages a single slide can expand onto when printing
+        // to PDF, unlimited by default
+        pdfMaxPagesPerSlide: Number.POSITIVE_INFINITY,
+        // Prints each fragment on a separate slide
+        pdfSeparateFragments: true,
+        // Offset used to reduce the height of content within exported PDF pages.
+        // This exists to account for environment differences based on how you
+        // print to PDF. CLI printing options, like phantomjs and wkpdf, can end
+        // on precisely the total height of the document whereas in-browser
+        // printing has to end one pixel before.
+        pdfPageHeightOffset: -1,
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+        // The display mode that will be used to show slides
+        display: 'block',
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000
+      });
+      // Override SPACE to play / pause the video
+      Reveal.addKeyBinding(
+        {
+          keyCode: 32,
+          key: 'SPACE',
+          description: 'Play / pause video'
+        },
+        () => {
+          var currentVideos = Reveal.getCurrentSlide().slideBackgroundContentElement.getElementsByTagName("video");
+          if (currentVideos.length > 0) {
+            if (currentVideos[0].paused == true) currentVideos[0].play();
+            else currentVideos[0].pause();
+          } else {
+            Reveal.next();
+          }
+        }
+      );
+    </script>
+  </body>
+</html>

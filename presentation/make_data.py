@@ -45,7 +45,9 @@ out = {
         "ls_greedy_fail_8x8_etf": "~80%",
         "bars_etf_fair": {"single swap": 1.0, "multi-swap (tuned)": 2.22, "quantum (all-pairs mixer)": 2.67},
         "quantum_phase_off_etf": 1.84,
-        "beats_multi_heldout": "81-91%",
+        "beats_multi_heldout": "81–91%",
+        "locally_balanced_etf": 3.42,  # research_results.md §5.2 (fair tuning, ETFs)
+        "locally_balanced_checks": 30,  # k(n-k) = 5 x 6 score checks per step at 6 vs 6 with SPY fixed
         "winner_2q_gates": 540,
         "hw_2q_gates": 86,
         "hw_qpu_seconds": 12,

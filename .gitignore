@@ -234,6 +234,7 @@ data/stock_prices.csv
 # presentation build
 presentation/.venv/
 presentation/media/
+presentation/thumbnail/media/
 presentation/__pycache__/
 presentation/slides/
 presentation/talk.html

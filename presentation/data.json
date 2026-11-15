@@ -127,7 +127,9 @@
    "quantum (all-pairs mixer)": 2.67
   },
   "quantum_phase_off_etf": 1.84,
-  "beats_multi_heldout": "81-91%",
+  "beats_multi_heldout": "81–91%",
+  "locally_balanced_etf": 3.42,
+  "locally_balanced_checks": 30,
   "winner_2q_gates": 540,
   "hw_2q_gates": 86,
   "hw_qpu_seconds": 12,
