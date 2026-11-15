@@ -12,6 +12,7 @@ useful background.
 |---|---|
 | [`scope-review.md`](scope-review.md) | Answers to the scope's five critique questions; keep/change/drop; sizing and hardware budget |
 | [`literature-review.md`](literature-review.md) | Thematic synthesis, each section ending in implications for the build |
+| [`rugged-landscapes.md`](rugged-landscapes.md) | Why every window is single-peaked; finance problems with exactly k holdings that can be rugged; tuning knobs, screen, baselines, experiments E0–E7 |
 | [`references.md`](references.md) | Annotated bibliography: DOI, OpenAlex ID, peer-review status, depth read |
 | [`references.bib`](references.bib) | BibTeX for the same works |
 
@@ -46,11 +47,27 @@ using direct per-step circuit proposals on real financial data, with an exact an
 6. **Plan for classical to win.** Jump-distance profiles, an evolution-time sweep, exact
    spectral gaps and hardware fidelity keep a negative result informative.
 
+**Update after the landscape check** (details in [`rugged-landscapes.md`](rugged-landscapes.md)).
+Every window turned out single-peaked, which is the expected result: per-asset terms are
+about 13× the pair terms, and a near-additive score over exactly k assets has one swap
+optimum. Removing the market mode is a weak dial, because a shared market factor adds the
+same amount to every 5-asset portfolio. The main dial is r, the spread of pair terms over
+the spread of per-asset terms. Candidates in order: minimum variance on a mixed-asset
+universe, market-neutral long/short with fixed counts, least-correlated k, and credit
+feature selection. Screen each instance (at least 3 swap optima, global basin under 30%)
+before running QeMCMC, and add parallel tempering and a classically simulated quantum
+proposal as baselines.
+
 ## Discovery log
 
 - OpenAlex API: keyword searches, DOI lookups, and forward-citation graphs (works citing
   Layden 2023, Marshall 2026 and Wang 2020). New for this scope: Kawasaki dynamics, swap
   heuristics for cardinality-constrained portfolios, and count-preserving QeMCMC.
+- Rugged-landscape follow-up (November 2026): four parallel literature searches covering
+  QeMCMC advantage conditions, rugged portfolio formulations, banking selection problems and
+  ruggedness metrics. Notes are in `../../research_notes/QeMCMC rugged finance landscapes/`
+  and the full report in `../../reports/QeMCMC rugged finance landscapes.md`. OpenAlex IDs
+  for five of the new references are missing because the daily OpenAlex limit was reached.
 - Full text read: Layden et al. 2023 (arXiv:2203.12497) and Marshall et al. 2026
   (arXiv:2602.06171v2). Everything else is abstract or metadata only, as flagged in
   `references.md`.

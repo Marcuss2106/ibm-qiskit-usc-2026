@@ -82,6 +82,40 @@ violate its exchange condition, see `experiments/landscape/exchange_test.py`).
 | Shioura & Tamura (2015). Gross substitutes condition and discrete concavity for multi-unit valuations: a survey. *J. Oper. Res. Soc. Japan* 58 | J | abs | 10.15807/jorsj.58.61 | W2099063943 | Links "gross substitutes" (economics) to M♮-concavity. |
 | Murota & Shioura (2004). Quadratic M-convex and L-convex functions. *Adv. Appl. Math.* | J | meta | 10.1016/j.aam.2003.11.001 | W2016802101 | Conditions for a quadratic function to be M-convex; would characterize which covariance matrices give guaranteed single peaks. |
 
+## Rugged landscapes
+
+Added November 2026 for [`rugged-landscapes.md`](rugged-landscapes.md). OpenAlex IDs were
+looked up by DOI; "—" means the lookup was not completed (OpenAlex daily limit reached).
+Depth read reflects the research notes behind the page.
+
+| Reference | Status | Read | DOI / ID | OpenAlex | Why it matters |
+|---|---|---|---|---|---|
+| Galluccio, Bouchaud & Potters (1998). Rational decisions, random matrices and spin glasses. *Physica A* | J | abs | 10.1016/S0378-4371(98)00332-X | W2159940266 | Long/short portfolios as spin glasses; exponentially many far-apart optima |
+| di Tollo (2015). Hybrid metaheuristic for portfolio selection: comparison with an exact solver and search space analysis. *FedCSIS* | J | full | 10.15439/2015f7 | W1925509017 | Only real-data local-optima count: 1–5 optima; hedged-pair instance is rugged |
+| Hodson, Ruck, Ong, Garvin et al. (2019). Portfolio rebalancing experiments using the Quantum Alternating Operator Ansatz | P | abs | 10.48550/arXiv.1911.05296 | W2989335074 | Long/short encoding with separate XY mixers |
+| Garnier-Brun, Benzaquen, Ciliberti & Bouchaud (2021). A new spin on optimal portfolios and ecological equilibria (title from memory; check arXiv) | P | abs | arXiv:2104.00668 | — | Many solutions even without shorts |
+| Laloux, Cizeau, Bouchaud & Potters (1999). Noise dressing of financial correlation matrices. *PRL* 83, 1467 | J | abs | 10.1103/PhysRevLett.83.1467 | W2147675445 | Short windows add random-sign noise modes |
+| Hamze, Raymond, Pattison, Biswas & Katzgraber (2020). Wishart planted ensemble: a tunably rugged pairwise Ising model. *PRE* 101, 052102 | J | abs | 10.1103/PhysRevE.101.052102 | W2947883854 | Planted factor-neutral family; easy–hard–easy |
+| Hen, Job, Albash, Rønnow et al. (2015). Probing for quantum speedup in spin-glass problems with planted solutions. *PRA* 92, 042325 | J | meta | 10.1103/PhysRevA.92.042325 | W1636291537 | Frustrated-loop planting |
+| Marshall, Martín-Mayor & Hen (2016). Practical engineering of hard spin-glass instances. *PRA* 94, 012320 | J | abs | 10.1103/PhysRevA.94.012320 | W2352629499 | Adaptive instance search; selection-bias warning |
+| Li (2026). Structure leakage and verification hazards in planted-solution benchmarks. *IEEE Access* | J | meta | 10.1109/ACCESS.2026.3738535 | W7169510115 | Planted instances can leak structure |
+| Orfi & Sels (2024b). Barriers to efficient mixing of quantum-enhanced Markov chains. *PRA* 110, 052434 | J | abs | 10.1103/PhysRevA.110.052434 | W4404692126 | Proposals must spread, but not fully thermalize |
+| Christmann, Ivashkov, Chiurco & Mazzola (2025). From quantum-enhanced to quantum-inspired Monte Carlo. *PRA* 111, 042615 | J | abs | 10.1103/PhysRevA.111.042615 | W4409503533 | Classical emulation keeps part of the gain; optimal mixer strength |
+| Arai & Kadowaki (2025). Quantum annealing enhanced Markov-chain Monte Carlo. *Sci. Rep.* | J | abs | 10.1038/s41598-025-07293-y | W4411872364 | TVD to Boltzmann as a metric |
+| Hukushima & Nemoto (1996). Exchange Monte Carlo method and application to spin glass simulations. *JPSJ* 65, 1604 | J | meta | 10.1143/JPSJ.65.1604 | W2002664623 | Parallel tempering baseline |
+| Ochoa & Veerapen (2018). Mapping the global structure of TSP fitness landscapes. *J. Heuristics* | J | abs | 10.1007/s10732-017-9334-0 | W2618079578 | Local optima networks and funnels |
+| Martí, Gallego, Duarte & Pardo (2013). Heuristics and metaheuristics for the maximum diversity problem. *J. Heuristics* | J | meta | — | — | MDPLIB; 30 heuristics compared |
+| Wu & Hao (2013). A hybrid metaheuristic method for the maximum diversity problem. *EJOR* | J | meta | — | — | Tabu with swap neighbourhoods |
+| Manurangsi (2017). Almost-polynomial ratio ETH-hardness of approximating densest k-subgraph. *STOC* | J | meta | 10.1145/3055399.3055412 | W2552383377 | Least-correlated-k is hard |
+| Hansen & Mladenović (1997). Variable neighborhood search for the p-median. *Location Science* | J | meta | 10.1016/S0966-8349(98)00030-8 | W1988423736 | Swap search stalls in p-median optima |
+| Alekseeva & Kochetov (2008). Local search complexity for the p-median problem. *EJOR* 191(3) | J | meta | — | — | Tight PLS-complete swap search (title from RePEc listing, unverified) |
+| Milne, Rounds & Goddard (2017). Optimal feature selection in credit scoring and classification using a quantum annealer. 1QBit white paper | P | meta | — | — | First credit feature-selection QUBO (German Credit) |
+| Mücke, Heese, Müller, Wolter et al. (2023). Feature selection on quantum computers. *Quantum Mach. Intell.* | J | abs | 10.1007/s42484-023-00099-z | W4321610604 | k-of-n feature-selection QUBO |
+| Zoufal, Mishmash, Sharma, Kumar et al. (2023). Variational quantum algorithm for unconstrained black box binary optimization: application to feature selection. *Quantum* 7, 909 | J | abs | 10.22331/q-2023-01-26-909 | W4229442489 | IBM feature selection |
+| Samanta, Wang, Hodges, Ferenczi et al. (2025). Parametric quantum feature selection methods for fraud and default detection. *AAAI Symp. Ser.* | J | abs | 10.1609/aaaiss.v7i1.36910 | W7106481027 | American Express; banking use case |
+| Giron, Korpas, Parvaiz, Malik et al. (2023). Approaching collateral optimization for NISQ and quantum-inspired computing. *IEEE TQE* 4 | J | abs | 10.1109/TQE.2023.3314839 | W4386699397 | Collateral: budget constraints, poor fit |
+| Braine, Egger, Glick & Woerner (2021). Quantum algorithms for mixed binary optimization applied to transaction settlement. *IEEE TQE* | J | abs | 10.1109/TQE.2021.3063635 | W2979770774 | Settlement: inequality constraints, poor fit |
+
 ## Background (study guide)
 
 | Reference | Status | Read | DOI / ID | OpenAlex | Why it matters |

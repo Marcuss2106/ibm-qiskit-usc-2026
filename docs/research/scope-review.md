@@ -216,7 +216,9 @@ exact answer key. That makes it a stronger secondary benchmark than the scope as
   instances, enough to report medians and spreads across windows.
 - **Risk penalty λ.** Choose λ so the return and variance terms have similar spread across
   the valid portfolios, or sweep a small set such as 1, 3 and 10. Report how λ changes the
-  local-optimum count; it is the main knob for landscape difficulty.
+  local-optimum count; it is the main knob for landscape difficulty. (Update: λ alone did
+  not create multiple optima; see [`rugged-landscapes.md`](rugged-landscapes.md) for the
+  coupling-to-field ratio r and stronger knobs.)
 - **Estimation noise.** Expected-return estimates from one year of data are very noisy
   (Chopra & Ziemba 1993; Merton 1980). That is acceptable here, because the claim is about
   search on a fixed objective, not about investment performance. Say so in the pitch.
