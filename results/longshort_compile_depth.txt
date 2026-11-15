@@ -1,0 +1,28 @@
+
+== fake_fez (156 qubits)
+  11 qubits (6 long / 6 short):
+    ring mixer + linear phase (hardware target)        2q gates    83   2q depth   63
+    ring mixer + ring phase                            2q gates   115   2q depth   84
+    ordered ring + ordered ring phase                  2q gates    87   2q depth   78
+    ring mixer + full phase                            2q gates   241   2q depth  127
+    complete mixer + full phase (best in simulation)   2q gates   541   2q depth  234
+  15 qubits (8 long / 8 short):
+    ring mixer + linear phase (hardware target)        2q gates   122   2q depth  104
+    ring mixer + ring phase                            2q gates   141   2q depth  107
+    ordered ring + ordered ring phase                  2q gates   188   2q depth  177
+    ring mixer + full phase                            2q gates   428   2q depth  240
+    complete mixer + full phase (best in simulation)   2q gates  1134   2q depth  419
+
+== fake_torino (133 qubits)
+  11 qubits (6 long / 6 short):
+    ring mixer + linear phase (hardware target)        2q gates    56   2q depth   56
+    ring mixer + ring phase                            2q gates    79   2q depth   61
+    ordered ring + ordered ring phase                  2q gates    87   2q depth   81
+    ring mixer + full phase                            2q gates   237   2q depth  138
+    complete mixer + full phase (best in simulation)   2q gates   569   2q depth  272
+  15 qubits (8 long / 8 short):
+    ring mixer + linear phase (hardware target)        2q gates   116   2q depth  104
+    ring mixer + ring phase                            2q gates   145   2q depth  111
+    ordered ring + ordered ring phase                  2q gates   151   2q depth  137
+    ring mixer + full phase                            2q gates   413   2q depth  198
+    complete mixer + full phase (best in simulation)   2q gates  1091   2q depth  320
