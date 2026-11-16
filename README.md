@@ -57,8 +57,8 @@ investment performance. Full numbers, methods and caveats are in
 Developed and tested on Python 3.14.
 
 ```bash
-git clone https://github.com/Marcuss2106/ibm-qiskit-usc-2026.git
-cd ibm-qiskit-usc-2026
+git clone https://github.com/Marcuss2106/quantum-mcmc-portfolio-sampling.git
+cd quantum-mcmc-portfolio-sampling
 python -m venv qiskit-env && source qiskit-env/bin/activate
 pip install -r requirements.txt
 python -m pytest -q tests            # offline, synthetic data
