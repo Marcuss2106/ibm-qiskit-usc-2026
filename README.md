@@ -5,13 +5,13 @@
 Can a quantum circuit propose better moves for a Markov chain Monte Carlo (MCMC) search
 than classical swap moves, on a real financial problem where the right answer is known?
 
-This repository holds the code, data and results from our IBM Quantum hackathon project
-(Qiskit Fall Fest, USC, November 2026). We compare **quantum-enhanced MCMC (QeMCMC)**,
+This repository holds the code, data and results from our winning IBM Quantum hackathon project
+(Qiskit Fall Fest Quantum Optimization Advanced Track Winner, USC, November 2026). We compare **quantum-enhanced MCMC (QeMCMC)**,
 where each proposal comes from a count-preserving XY-mixer circuit with a score phase,
 against classical Metropolis with swap moves. All problem sizes are small enough to
 enumerate every portfolio, so every number is measured against an exact answer key.
 
-**Team (Bose's Fan Club):** Marcus Sostak, Aigar Boltyenkov, Jesus Garcia.
+**Team:** Marcus Sostak, Aigar Boltyenkov, Jesus Garcia.
 
 <br clear="right">
 
