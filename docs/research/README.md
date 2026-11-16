@@ -4,17 +4,12 @@ Supporting research for [`../project-scope.md`](../project-scope.md): can count-
 quantum circuit proposals find the best equal-weight ETF portfolio in fewer attempts than
 classical swap proposals, and at what cost in shots and runtime?
 
-`../QeMCMC_Roadmap (1).docx` describes an earlier design (QeMCMC vs. QAOA with a monthly
-backtest) and is kept for history only. `../Quantum_Optimization_Study_Guide.pdf` remains
-useful background.
-
 | File | What it is |
 |---|---|
 | [`scope-review.md`](scope-review.md) | Answers to the scope's five critique questions; keep/change/drop; sizing and hardware budget |
 | [`literature-review.md`](literature-review.md) | Thematic synthesis, each section ending in implications for the build |
 | [`rugged-landscapes.md`](rugged-landscapes.md) | Why every window is single-peaked; finance problems with exactly k holdings that can be rugged; tuning knobs, screen, baselines, experiments E0–E7 |
 | [`longshort-complete-mixer.md`](longshort-complete-mixer.md) | Testing so far on the 6 long / 6 short ETF book: complete-mixer quantum proposal vs classical baselines, tests 1–6 and current claim |
-| [`presentation-reference.md`](presentation-reference.md) | How to build the talk: 3Blue1Brown-style explanation, slide research (Alley, Mayer, Doumont), Winston's speaking techniques, manim-slides patterns, draft QeMCMC outline |
 | [`references.md`](references.md) | Annotated bibliography: DOI, OpenAlex ID, peer-review status, depth read |
 | [`references.bib`](references.bib) | BibTeX for the same works |
 
@@ -67,8 +62,7 @@ proposal as baselines.
   heuristics for cardinality-constrained portfolios, and count-preserving QeMCMC.
 - Rugged-landscape follow-up (November 2026): four parallel literature searches covering
   QeMCMC advantage conditions, rugged portfolio formulations, banking selection problems and
-  ruggedness metrics. Notes are in `../../research_notes/QeMCMC rugged finance landscapes/`
-  and the full report in `../../reports/QeMCMC rugged finance landscapes.md`. OpenAlex IDs
+  ruggedness metrics, summarized in [`rugged-landscapes.md`](rugged-landscapes.md). OpenAlex IDs
   for five of the new references are missing because the daily OpenAlex limit was reached.
 - Full text read: Layden et al. 2023 (arXiv:2203.12497) and Marshall et al. 2026
   (arXiv:2602.06171v2). Everything else is abstract or metadata only, as flagged in

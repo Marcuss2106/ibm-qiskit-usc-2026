@@ -50,7 +50,7 @@ def f(u, v):
 def build():
     """Everything in the thumbnail: 3D parts, the fixed-in-frame title block, the camera, and the hop arcs.
 
-    Shared with the LinkedIn loop (../linkedin_gif.py), whose opening frame is this thumbnail.
+    Shared with the LinkedIn loop (kept locally, not in the repo), whose opening frame is this thumbnail.
     """
     axes = ThreeDAxes(x_range=[-1.4, 1.4], y_range=[-1.4, 1.4], z_range=[0, 2.2],
                       x_length=6.2, y_length=6.2, z_length=2.9)

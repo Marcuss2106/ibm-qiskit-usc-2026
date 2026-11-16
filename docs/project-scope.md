@@ -1,7 +1,7 @@
 # QeMCMC portfolio search — project scope
 
 > Current scope for the 24-hour IBM Quantum hackathon. It supersedes
-> `QeMCMC_Roadmap (1).docx`, which described an earlier QeMCMC-vs-QAOA backtest design.
+> an earlier QeMCMC-vs-QAOA backtest design.
 > Literature support and critique are in [`research/`](research/README.md).
 
 ## Research question

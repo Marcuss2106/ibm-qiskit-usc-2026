@@ -1,6 +1,6 @@
 """Five-minute talk: rugged problems, quantum moves.
 
-Follows docs/research/presentation-reference.md (assertion headlines, speaker notes,
+Follows a 3Blue1Brown-style outline (assertion headlines, speaker notes,
 limits slide, contributions ending), plus the max-cut slides.
 
 Render (from presentation/, after `python make_data.py` has written data.json):

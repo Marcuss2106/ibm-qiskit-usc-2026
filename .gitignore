@@ -238,3 +238,10 @@ presentation/thumbnail/media/
 presentation/__pycache__/
 presentation/slides/
 presentation/talk.html
+
+# local agent state
+.claude/worktrees/
+.claude/settings.local.json
+
+# LinkedIn assets (kept locally, not published)
+presentation/linkedin_*

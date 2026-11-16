@@ -8,8 +8,6 @@ file.
 - Task tracking: `bd` (beads). Run `bd prime`, then `bd ready`. Do not keep TODO lists in
   markdown.
 - Git policy: conservative. No commits or pushes unless the user asks.
-- Superseded: `QeMCMC_Roadmap (1).docx` (old QeMCMC-vs-QAOA backtest design). Ignore it for
-  implementation. `Quantum_Optimization_Study_Guide.pdf` is background only.
 
 ---
 
